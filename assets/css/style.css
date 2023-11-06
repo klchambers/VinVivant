@@ -17,23 +17,79 @@ h3 {
     font-family: 'Playfair Display', sans-serif;
 }
 
-/* Removing default hyperlink styling to navigation links */
-.navigation {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
+header {
+    background-color: #FFFFFF;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-    flex-direction: row;
-    align-self: flex-end;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main {
+    /* Make main content take up extra space - push footer down */
+    flex: 1 0 auto;
+    /* Make content visible by pushing it below the header */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: brown;
+}
+
+/* Removing default hyperlink styling to navigation links */
+.internal-link {
+    text-decoration: none;
+    color: black;
     margin: 10px;
+}
+
+#navigation {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #logo {
     text-decoration: none;
     color: black;
+    padding-left: 10px;
 }
 
 #page-header {
     display: flex;
     flex-direction: row;
+    left: 0;
+    right: 0;
+}
+
+/* Nav toggle, adapted from Code Institute's "Love Running" project */
+
+nav {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
