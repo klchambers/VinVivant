@@ -21,7 +21,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -114,4 +114,22 @@ nav {
     position: relative;
     margin: 0;
     margin-bottom: 10px;
+}
+
+#herotext {
+    color: antiquewhite;
+    background-color: rgba(71, 108, 70, 0.8);
+    bottom: 10px;
+    position: absolute;
+    height: 275px;
+    font-size: xx-large;
+    width: 90%;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+#herotext h2 {
+    font-weight: 600;
+    margin-top: 10%;
+    padding-bottom: 5px;
 }
