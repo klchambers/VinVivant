@@ -1,6 +1,13 @@
 /* Importing Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@600&display=swap');
 
+/* Wildcard selector to override default browser styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* Setting default styling */
 body {
     min-height: 100vh;
@@ -32,7 +39,7 @@ main {
     /* Make main content take up extra space - push footer down */
     flex: 1 0 auto;
     /* Make content visible by pushing it below the header */
-    margin-top: 100px;
+    margin-top: 43.5px;
     display: flex;
     flex-direction: column;
 }
@@ -50,7 +57,7 @@ footer {
 
 #navigation {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     list-style-type: none;
     text-decoration: none;
 }
@@ -92,4 +99,13 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+#heroimage {
+    height: 600px;
+    width: 100%;
+    background: url('../images/johny-goerend-pnigODapPek-unsplash.jpg') no-repeat center/cover;
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
 }
