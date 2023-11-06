@@ -1,0 +1,40 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@600&display=swap');
+
+/* Setting default styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    font-family: 'Assistant', sans-serif;
+}
+
+/* Default header fonts */
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* Removing default hyperlink styling to navigation links */
+.navigation {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin: 10px;
+    right: 0px;
+}
+
+#logo {
+    text-decoration: none;
+    color: black;
+}
+
+#page-header {
+    display: flex;
+    flex-direction: row;
+}
