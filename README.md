@@ -1,6 +1,9 @@
 # VinVivant
 
 ## Acknowledgements
+
+Hero image photo by <a href="https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johny Goerend</a> on <a href="https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 Favicons created using [favicon.io](https://favicon.io/)
 
 Icon fonts from [Font Awesome](https://fontawesome.com/)
