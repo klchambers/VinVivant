@@ -45,7 +45,33 @@ main {
 }
 
 footer {
-    background-color: #ffffff
+    height: 60px;
+    background-color: rgba(71, 108, 70, 1);
+    color: antiquewhite;
+    padding: 15px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+ .fa-brands {
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#copyright {
+    margin-right: 80px;
+}
+
+#social-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2px;
+    justify-content: space-between;
 }
 
 /* Used to hide elements i.e. unwanted headings*/
@@ -58,6 +84,7 @@ footer {
     text-decoration: none;
     color: black;
     margin: 10px;
+    list-style-type: none;
 }
 
 #navigation {
