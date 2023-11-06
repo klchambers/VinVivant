@@ -54,7 +54,7 @@ footer {
     flex-direction: row;
 }
 
- .fa-brands {
+.fa-brands {
     text-align: center;
     text-decoration: none;
     color: antiquewhite;
@@ -158,4 +158,31 @@ nav {
 #herotext h2 {
     font-weight: 600;
     padding-bottom: 5px;
+}
+
+/* Media query for tablets and larger (768px and above) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
