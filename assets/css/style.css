@@ -173,6 +173,10 @@ nav {
         width: fit-content;
         padding-right: 1rem;
     }
+    /* Makes content visible on larger screens, pushes it further down screen*/
+    main {
+        margin-top: 50px;
+    }
 
     /* Makes use of extra screen space in footer */
     footer {
