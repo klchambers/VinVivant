@@ -174,9 +174,12 @@ nav {
         padding-right: 1rem;
     }
 
+    /* Makes use of extra screen space in footer */
     footer {
         padding: 20px;
     }
+
+    /* Removing hamburger menu on larger screens */
     #navigation {
         display: flex;
     }
