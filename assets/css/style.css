@@ -45,7 +45,7 @@ main {
 }
 
 footer {
-    background-color: brown;
+    background-color: #ffffff
 }
 
 /* Used to hide elements i.e. unwanted headings*/
@@ -130,6 +130,5 @@ nav {
 
 #herotext h2 {
     font-weight: 600;
-    margin-top: 10%;
     padding-bottom: 5px;
 }
