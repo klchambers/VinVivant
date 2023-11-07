@@ -64,6 +64,13 @@ footer {
     padding: 5px;
 }
 
+.flexcontent {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    text-align: center;
+}
+
 #copyright {
     margin-right: 80px;
 }
@@ -166,6 +173,7 @@ nav {
     margin: 20px;
     text-align: center;
 }
+
 #cta a {
     text-decoration: none;
     font-weight: bolder;
@@ -176,6 +184,21 @@ nav {
 #cta p {
     font-family: 'Assistant', Arial, Helvetica, sans-serif;
     font-size: larger;
+}
+
+/* Needs to be added to media queries to be optimised for larger screens */
+#bloglink {
+    background: url(../images/pexels-polina-tankilevitch-4110404.webp) no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.imglink {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Media query for tablets and larger (768px and above) */
@@ -189,6 +212,7 @@ nav {
         width: fit-content;
         padding-right: 1rem;
     }
+
     /* Makes content visible on larger screens, pushes it further down screen*/
     main {
         margin-top: 50px;
@@ -198,6 +222,7 @@ nav {
     footer {
         padding: 20px;
     }
+
     /* Loads higher resolution image on larger screens */
     #heroimage {
         height: 600px;
