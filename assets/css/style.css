@@ -187,7 +187,6 @@ nav {
     font-size: larger;
 }
 
-/* Needs to be added to media queries to be optimised for larger screens */
 #bloglink {
     background: url(../images/pexels-polina-tankilevitch-4110404.webp) no-repeat center/cover;
     height: 300px;
@@ -295,7 +294,7 @@ nav {
         color: rgba(71, 108, 70, 1);
         font-size: 125%;
     }
-
+    /* Need to add selector for 'main' and increase top margin, to stop content being hidden by the larger header */
     #page-header {
         display: flex;
         flex-direction: column;
