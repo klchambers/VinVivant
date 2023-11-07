@@ -295,6 +295,13 @@ nav {
         color: rgba(71, 108, 70, 1);
         font-size: 125%;
     }
+
+    #page-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Creates tiled display on larger screens */
     .laptopdisplay {
         display: flex;
