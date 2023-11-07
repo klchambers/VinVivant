@@ -162,6 +162,22 @@ nav {
     padding-bottom: 5px;
 }
 
+#cta {
+    margin: 20px;
+    text-align: center;
+}
+#cta a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: inherit;
+}
+
+#cta p {
+    font-family: 'Assistant', Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
 /* Media query for tablets and larger (768px and above) */
 @media screen and (min-width: 768px) {
 
