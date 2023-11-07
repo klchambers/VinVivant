@@ -280,6 +280,11 @@ nav {
 /* Media query for laptop screens and larger */
 @media screen and (min-width: 992px) {
 
+    /* Prevents larger header from covering main content */
+    main {
+        margin-top: 75.5px;
+    }
+
     footer {
         display: flex;
         padding: 20px;
@@ -294,7 +299,7 @@ nav {
         color: rgba(71, 108, 70, 1);
         font-size: 125%;
     }
-    /* Need to add selector for 'main' and increase top margin, to stop content being hidden by the larger header */
+    
     #page-header {
         display: flex;
         flex-direction: column;
