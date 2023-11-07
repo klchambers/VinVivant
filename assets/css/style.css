@@ -137,9 +137,9 @@ nav {
 }
 
 #heroimage {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url('../images/johny-goerend-pnigODapPek-unsplash.jpg') no-repeat center/cover;
+    background: url('../images/johny-goerend-pnigODapPek-unsplash.webp') no-repeat center/cover;
     position: relative;
     margin: 0;
     margin-bottom: 10px;
@@ -182,7 +182,15 @@ nav {
     footer {
         padding: 20px;
     }
-
+    /* Loads higher resolution image on larger screens */
+    #heroimage {
+        height: 600px;
+        width: 100%;
+        background: url('../images/johny-goerend-pnigODapPek-unsplash.webp') no-repeat top/cover;
+        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+    }
     /* Removing hamburger menu on larger screens */
     #navigation {
         display: flex;
