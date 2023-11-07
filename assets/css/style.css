@@ -191,6 +191,13 @@ nav {
         margin: 0;
         margin-bottom: 10px;
     }
+
+    /* Increasing text size on hero image and resizing green box*/
+    #herotext {
+        font-size: 2rem;
+        height: 200px;
+    }
+
     /* Removing hamburger menu on larger screens */
     #navigation {
         display: flex;
