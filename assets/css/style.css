@@ -39,7 +39,7 @@ main {
     /* Make main content take up extra space - push footer down */
     flex: 1 0 auto;
     /* Make content visible by pushing it below the header */
-    margin-top: 43.5px;
+    margin-top: 58.5px;
     display: flex;
     flex-direction: column;
 }
@@ -104,10 +104,16 @@ footer {
     text-decoration: none;
 }
 
+#navigation li {
+    font-size: 110%;
+    padding-top: 10px;
+}
+
 #logo {
     text-decoration: none;
     color: black;
     padding-left: 10px;
+    font-size: 110%;
 }
 
 #page-header {
@@ -115,6 +121,8 @@ footer {
     flex-direction: row;
     left: 0;
     right: 0;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 /* Nav toggle, adapted from Code Institute's "Love Running" project */
@@ -215,7 +223,7 @@ nav {
 
     /* Makes content visible on larger screens, pushes it further down screen*/
     main {
-        margin-top: 50px;
+        margin-top: 68.5px;
     }
 
     /* Makes use of extra screen space in footer */
@@ -282,7 +290,7 @@ nav {
 
     /* Prevents larger header from covering main content */
     main {
-        margin-top: 75.5px;
+        margin-top: 114px;
     }
 
     footer {
@@ -321,6 +329,11 @@ nav {
         background-color: rgba(71, 108, 70, 1);
         height: 300px;
     }
+
+    #logo {
+        font-size: 125%;
+    }
+
     /* Displays content of Call to Action box in the centre */
     #cta {
         display: flex;
