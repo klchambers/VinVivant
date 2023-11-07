@@ -222,7 +222,31 @@ nav {
     footer {
         padding: 20px;
     }
+    /* Display content in a row rather than column */
+    .flexcontent {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ctabox {
+        align-content: center;
+        justify-content: space-around;
+        max-width: 463px;
+    }
+    #bloglink {
+        width: 463px;
+        height: 15em;
+        background-position: top;
+    }
 
+    #cta a {
+        font-size: xx-large;
+    }
+    
+    #cta p {
+        font-size: xx-large;
+    }
     /* Loads higher resolution image on larger screens */
     #heroimage {
         height: 600px;
@@ -230,7 +254,7 @@ nav {
         background: url('../images/johny-goerend-pnigODapPek-unsplash.webp') no-repeat top/cover;
         position: relative;
         margin: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     /* Increasing text size on hero image and resizing green box*/
