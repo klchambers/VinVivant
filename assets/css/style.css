@@ -177,7 +177,7 @@ nav {
     font-weight: 600;
     padding-bottom: 5px;
 }
-
+/* Centres text in call to action */
 #cta {
     margin: 20px;
     text-align: center;
@@ -203,7 +203,7 @@ nav {
     font-size: xx-large;
     justify-content: center;
 }
-
+/* Removes link styling */
 .imglink {
     text-decoration: none;
     color: inherit;
@@ -233,6 +233,7 @@ nav {
         flex-direction: row;
         align-items: baseline;
     }
+
     /* Display content in a row rather than column */
     .flexcontent {
         display: flex;
@@ -240,11 +241,13 @@ nav {
         align-items: center;
         justify-content: space-between;
     }
+
     .ctabox {
         align-content: center;
         justify-content: space-around;
         max-width: 463px;
     }
+
     #bloglink {
         width: 463px;
         height: 15em;
@@ -254,10 +257,11 @@ nav {
     #cta a {
         font-size: xx-large;
     }
-    
+
     #cta p {
         font-size: xx-large;
     }
+
     /* Loads higher resolution image on larger screens */
     #heroimage {
         height: 600px;
@@ -293,6 +297,7 @@ nav {
         margin-top: 114px;
     }
 
+    /* Displays footer content in a row on larger screens */
     footer {
         display: flex;
         padding: 20px;
@@ -307,7 +312,8 @@ nav {
         color: rgba(71, 108, 70, 1);
         font-size: 125%;
     }
-    
+
+    /* Moves nav links underneath header */
     #page-header {
         display: flex;
         flex-direction: column;
@@ -323,6 +329,7 @@ nav {
     .flexcontent {
         flex-direction: column;
     }
+
     /* Changes colour of Call to Action box to improve contrast against header */
     .ctabox {
         color: antiquewhite;
@@ -340,15 +347,18 @@ nav {
         flex-direction: column;
         transform: translateY(50px);
     }
+
     /* Resizes image to reduce wasted screen space */
     #bloglink {
         height: 347px;
         background-position: center;
     }
+
     /* Resizes hero image to take up extra space */
     #heroimage {
         height: 647px;
     }
+
     /* Adds responsiveness, shows user which link is being hovered over */
     #navigation li:hover {
         font-weight: bold;
