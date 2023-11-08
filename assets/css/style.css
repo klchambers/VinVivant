@@ -349,9 +349,9 @@ nav {
     #heroimage {
         height: 647px;
     }
-
+    /* Adds responsiveness, shows user which link is being hovered over */
     #navigation li:hover {
-        font-size: larger;
+        font-weight: bold;
         text-decoration: underline;
     }
 }
