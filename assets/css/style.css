@@ -349,4 +349,9 @@ nav {
     #heroimage {
         height: 647px;
     }
+
+    #navigation li:hover {
+        font-size: larger;
+        text-decoration: underline;
+    }
 }
