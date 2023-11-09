@@ -37,18 +37,20 @@
     </header>
 
     <main>
-        <section class="signupform">
-            <!--Opens new mail message to below address, with form data pre-included-->
-            <form action="mailto:kieran.l.chambers@gmail.com" method="POST">
-                <h2>Contact Us</h2>
-                <label for="formname">Name:</label>
-                <input type="text" id="formname" name="formname" placeholder="Your name" required>
-                <label for="formemail">Email address:</label>
-                <input type="email" id="formemail" name="formemail" placeholder="Your email address" required>
-                <label for="formmessage">Your message to us:</label>
-                <input type="text" id="formmessage" name="formmessage" placeholder="Your message here" required>
-                <input type="submit">
-            </form>
+        <section class="contactformimage">
+            <div class="contactformbox">
+                <!--Opens new mail message to below address, with form data pre-included-->
+                <form action="mailto:kieran.l.chambers@gmail.com" method="POST" class="form">
+                    <h2>Contact Us</h2>
+                    <label for="formname" class="formlabel">Name:</label>
+                    <input type="text" id="formname" name="formname" placeholder="Your name" required>
+                    <label for="formemail" class="formlabel">Email address:</label>
+                    <input type="email" id="formemail" name="formemail" placeholder="Your email address" required>
+                    <label for="formmessage" class="formlabel">Your message to us:</label>
+                    <textarea rows="5" id="formmessage" name="formmessage" placeholder="Your message"></textarea>
+                    <input type="submit" class="submitbutton" value="Send your message!">
+                </form>
+            </div>
         </section>
     </main>
 
