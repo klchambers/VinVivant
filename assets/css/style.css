@@ -379,6 +379,20 @@ nav {
         background-color: rgba(71, 108, 70, 1);
         height: 300px;
     }
+    /* Loads higher resolution image and puts contact form to left of page */
+    .contactformimage {
+        background: url(../images/max-tutak-unsplash.webp) no-repeat right/cover;
+        justify-content: flex-start;
+        height: 625px;
+    }
+    /* Sets appropriate form width for laptop screens */
+    .contactformbox {
+        width: 50vw;
+    }
+    /* Prevents form inputs from overlapping outside of .contactformbox */
+    .form {
+        width: 45vw;
+    }
 
     #logo {
         font-size: 125%;
