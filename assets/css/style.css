@@ -134,6 +134,12 @@ footer {
     justify-content: center;
 }
 
+.newsprefs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 #copyright {
     text-align: center;
 }
