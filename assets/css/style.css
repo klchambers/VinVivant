@@ -116,6 +116,22 @@ footer {
     font-weight: bolder;
 }
 
+.blog {
+    display: flex;
+    column-count: 2;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blogpost {
+    height: 175px;
+    width: 175px;
+    background-color: rgba(71, 108, 70, 0.8);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
 #copyright {
     text-align: center;
 }
