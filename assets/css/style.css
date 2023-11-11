@@ -137,7 +137,12 @@ footer {
 .newsprefs {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.signupprefs {
+    display: flex;
+    flex-direction: row;
 }
 
 .signupbox {
@@ -259,11 +264,13 @@ nav {
     font-weight: 600;
     padding-bottom: 5px;
 }
+
 /* Centres text in call to action */
 #cta {
     margin: 20px;
     text-align: center;
 }
+
 /* Setting styling in Call to Action */
 #cta a {
     text-decoration: none;
@@ -285,6 +292,7 @@ nav {
     font-size: xx-large;
     justify-content: center;
 }
+
 /* Removes link styling */
 .imglink {
     text-decoration: none;
@@ -418,16 +426,19 @@ nav {
         background-color: rgba(71, 108, 70, 1);
         height: 300px;
     }
+
     /* Loads higher resolution image and puts contact form to left of page */
     .contactformimage {
         background: url(../images/max-tutak-unsplash.webp) no-repeat right/cover;
         justify-content: flex-start;
         height: 625px;
     }
+
     /* Sets appropriate form width for laptop screens */
     .contactformbox {
         width: 50vw;
     }
+
     /* Prevents form inputs from overlapping outside of .contactformbox */
     .form {
         width: 45vw;

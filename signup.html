@@ -50,22 +50,32 @@
 
                         <div class="signupradio">
                             <h4>Newsletter frequency preferences</h4>
-                            <label for="weekly">Weekly</label>
-                            <input type="radio" name="freqpref" id="weekly" value="weekly" defaultChecked>
-                            <label for="fortnightly">Fortnightly</label>
-                            <input type="radio" name="freqpref" id="fortnightly" value="fortnightly">
-                            <label for="monthly">Monthly</label>
-                            <input type="radio" name="freqpref" id="monthly" value="monthly">
+                            <div class="signupprefs">
+                                <input type="radio" name="freqpref" id="weekly" value="weekly" defaultChecked>
+                                <label for="weekly">Weekly</label>
+                            </div>
+                            <div class="signupprefs">
+                                <input type="radio" name="freqpref" id="fortnightly" value="fortnightly">
+                                <label for="fortnightly">Fortnightly</label>
+                            </div>
+                            <div class="signupprefs">
+                                <input type="radio" name="freqpref" id="monthly" value="monthly">
+                                <label for="monthly">Monthly</label>
+                            </div>
                         </div>
                         <div class="signupcheck">
                             <h4>Newsletter preferences</h4>
                             <div class="newsprefs">
-                                <input type="checkbox" name="news" id="news">
-                                <label for="news">News and updates</label>
-                                <input type="checkbox" name="offers" id="offers">
-                                <label for="offers">Offers and promotions</label>
-                                <input type="checkbox" name="newsandoffers" id="newsandoffers">
-                                <label for="newsandoffers">All news and promotions</label>
+                                <div class="signupprefs"><input type="checkbox" name="news" id="news">
+                                    <label for="news">News and updates</label>
+                                </div>
+                                <div class="signupprefs"> <input type="checkbox" name="offers" id="offers">
+                                    <label for="offers">Offers and promotions</label>
+                                </div>
+                                <div class="signupprefs"> <input type="checkbox" name="newsandoffers"
+                                        id="newsandoffers">
+                                    <label for="newsandoffers">All news and promotions</label>
+                                </div>
                             </div>
                         </div>
                         <input type="submit" value="Sign Up!">
