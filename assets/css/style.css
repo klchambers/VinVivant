@@ -121,6 +121,7 @@ footer {
     column-count: 2;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 .blogpost {
@@ -130,6 +131,7 @@ footer {
     border-radius: 20px;
     display: flex;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 #copyright {
@@ -436,6 +438,5 @@ nav {
     /* Adds responsiveness, shows user which link is being hovered over */
     #navigation li:hover {
         font-weight: bold;
-        text-decoration: underline;
     }
 }
