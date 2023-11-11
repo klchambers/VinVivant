@@ -38,36 +38,40 @@
 
     <main>
         <section>
-            <h2 class="hidden">Sign Up Form</h2>
-            <form action="thankyou.html" method="GET" class="form">
-                <h2>Sign up to our newsletter</h2>
-                <label for="signupname">Your name:</label>
-                <input type="text" id="signupname" name="signupname" placeholder="Your name" required>
-                <label for="signupemail">Your email:</label>
-                <input type="email" id="signupemail" name="signupemail" placeholder="Your email" required>
+            <div class="signupimage">
+                <div class="signupbox">
+                    <h2 class="hidden">Sign Up Form</h2>
+                    <form action="thankyou.html" method="GET" class="form">
+                        <h2>Sign up to our newsletter</h2>
+                        <label for="signupname">Your name:</label>
+                        <input type="text" id="signupname" name="signupname" placeholder="Your name" required>
+                        <label for="signupemail">Your email:</label>
+                        <input type="email" id="signupemail" name="signupemail" placeholder="Your email" required>
 
-                <div class="signupradio">
-                    <h4>Newsletter frequency preferences</h4>
-                    <label for="weekly">Weekly</label>
-                    <input type="radio" name="freqpref" id="weekly" value="weekly" defaultChecked>
-                    <label for="fortnightly">Fortnightly</label>
-                    <input type="radio" name="freqpref" id="fortnightly" value="fortnightly">
-                    <label for="monthly">Monthly</label>
-                    <input type="radio" name="freqpref" id="monthly" value="monthly">
+                        <div class="signupradio">
+                            <h4>Newsletter frequency preferences</h4>
+                            <label for="weekly">Weekly</label>
+                            <input type="radio" name="freqpref" id="weekly" value="weekly" defaultChecked>
+                            <label for="fortnightly">Fortnightly</label>
+                            <input type="radio" name="freqpref" id="fortnightly" value="fortnightly">
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" name="freqpref" id="monthly" value="monthly">
+                        </div>
+                        <div class="signupcheck">
+                            <h4>Newsletter preferences</h4>
+                            <div class="newsprefs">
+                                <input type="checkbox" name="news" id="news">
+                                <label for="news">News and updates</label>
+                                <input type="checkbox" name="offers" id="offers">
+                                <label for="offers">Offers and promotions</label>
+                                <input type="checkbox" name="newsandoffers" id="newsandoffers">
+                                <label for="newsandoffers">All news and promotions</label>
+                            </div>
+                        </div>
+                        <input type="submit" value="Sign Up!">
+                    </form>
                 </div>
-                <div class="signupcheck">
-                    <h4>Newsletter preferences</h4>
-                    <div class="newsprefs">
-                        <input type="checkbox" name="news" id="news">
-                        <label for="news">News and updates</label>
-                        <input type="checkbox" name="offers" id="offers">
-                        <label for="offers">Offers and promotions</label>
-                        <input type="checkbox" name="newsandoffers" id="newsandoffers">
-                        <label for="newsandoffers">All news and promotions</label>
-                    </div>
-                </div>
-                <input type="submit" value="Sign Up!">
-            </form>
+            </div>
         </section>
     </main>
 
