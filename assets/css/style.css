@@ -91,6 +91,7 @@ footer {
     justify-content: center;
     height: 100vh;
     width: auto;
+    flex-grow: 1;
 }
 
 .contactformbox {
@@ -352,7 +353,7 @@ nav {
         height: 15em;
         background-position: top;
     }
-
+    /* Setting font size of text in Call to Action element of homepagec*/
     #cta a {
         font-size: xx-large;
     }
