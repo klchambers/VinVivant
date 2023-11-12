@@ -89,9 +89,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 120vh;
     width: auto;
-    flex-grow: 1;
 }
 
 .contactformbox {
