@@ -5,11 +5,11 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 ## Acknowledgements
 
-Hero image photo by <a href="https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johny Goerend</a> on <a href="https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
+Hero image photo by [Johny Goerend](https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
 
 Blog photo by [Polina Tankilevitch](https://www.pexels.com/photo/spilled-red-wine-from-a-glass-4110404/).
 
-Contact Us background image by <a href="https://unsplash.com/@maxtutakphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Max Tutak</a> on <a href="https://unsplash.com/photos/red-wine-in-clear-wine-glass--NOXMXHchEo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.
+Contact Us background image by [Max Tutak](https://unsplash.com/@maxtutakphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/red-wine-in-clear-wine-glass--NOXMXHchEo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
 
 Background photo for signup.html by [Jep Gambardella](https://www.pexels.com/photo/hands-toasting-wine-glasses-with-red-wine-5086617/).
   
