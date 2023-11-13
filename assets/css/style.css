@@ -116,7 +116,7 @@ footer {
     height: 75vh;
     width: 85vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -374,6 +374,10 @@ nav {
         max-width: 463px;
     }
 
+    .contactinfobox {
+        flex-direction: row;
+    }
+
     #bloglink {
         width: 463px;
         height: 15em;
@@ -474,11 +478,12 @@ nav {
 
     /* Sets appropriate form width for laptop screens */
     .contactformbox {
+        height: 55vh;
         width: 30vw;
     }
 
     .contactinfobox {
-        height: 50vh;
+        height: 55vh;
         width: 40vw;
     }
 
