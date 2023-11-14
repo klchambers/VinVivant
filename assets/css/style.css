@@ -63,6 +63,18 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+/* ID selector below styles navigation bar drop down menu - keeping at top of stylesheet near nav selectors */
+#navigation {
+    font-size: 110%;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* ID selector below styles navigation bar drop down list - keeping at top of style sheet near nav selector */
+#navigation li {
+    font-size: 110%;
+    padding-top: 10px;
+}
 
 main {
     /* Make main content take up extra space - push footer down */
@@ -86,7 +98,7 @@ footer {
     justify-content: space-between;
     padding-right: 10px;
 }
-
+/* Styling social media icons from Font Awesome */
 .fa-brands {
     text-align: center;
     text-decoration: none;
@@ -95,26 +107,26 @@ footer {
     padding: 5px;
     font-size: 25px;
 }
-
+/* Styling flex content on index.html */
 .flexcontent {
     display: flex;
     flex-direction: column;
     font-size: larger;
     text-align: center;
 }
-
+/* Styling form class */
 .form {
     display: flex;
     flex-direction: column;
     width: 70vw;
     text-align: center;
 }
-
+/* Styling form labels */
 .formlabel {
     padding-top: 5px;
     font-size: 20px
 }
-
+/* Set background image for contactus.html */
 .contactformimage {
     background: url(../images/compressed-max-tutak-unsplash.webp) no-repeat center/cover;
     display: flex;
@@ -124,7 +136,7 @@ footer {
     height: auto;
     width: auto;
 }
-
+/* Styles the div containing form on contactus.html */
 .contactformbox {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -139,7 +151,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+/* Styles the div containing contact info on contactus.html */
 .contactinfobox {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -165,7 +177,7 @@ footer {
     display: flex;
     flex-direction: row;
 }
-
+/* Styles the submit button on signup.html and contactus.html */
 .submitbutton {
     color: antiquewhite;
     background-color: rgba(71, 108, 70, 0.8);
@@ -192,7 +204,7 @@ footer {
     margin-bottom: 10px;
     justify-content: center;
 }
-
+/* Setting background image of signup.html */
 .signupimage {
     background: url(../images/compressed-pexels-jep-gambardella.webp) no-repeat center/cover;
     display: flex;
@@ -201,7 +213,7 @@ footer {
     height: 100vh;
     width: auto;
 }
-
+/* Styles the div containing form on signup.html */
 .signupbox {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -215,22 +227,22 @@ footer {
     border-radius: 3%;
     padding-top: 30px;
 }
-
+/* Set styles for newsletter preference checkboxes on signup.html */
 .newsprefs {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
+/* Set styles for newsletter frequency radio buttons on signup.html */
 .signupprefs {
     display: flex;
     flex-direction: row;
 }
-
+/* Styles the footer across all pages */
 #copyright {
     text-align: center;
 }
-
+/* Styles social media links, displaus in a row with even space between them */
 #social-links {
     list-style-type: none;
     display: flex;
@@ -251,19 +263,7 @@ footer {
     margin: 10px;
     list-style-type: none;
 }
-
-#navigation {
-    font-size: 110%;
-    letter-spacing: 1px;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-#navigation li {
-    font-size: 110%;
-    padding-top: 10px;
-}
-
+/* Styles h1 link in header */
 #logo {
     text-decoration: none;
     color: black;
