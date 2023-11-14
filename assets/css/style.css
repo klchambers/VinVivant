@@ -496,9 +496,9 @@ footer {
     .form {
         width: 25vw;
     }
-
+    /* Loads higher resolution image on larger screens, and pushes div to flex-start */
     .signupimage {
-        background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
+        background: url(../images/signup-bgimage.webp) no-repeat center/cover;
         justify-content: flex-start;
         height: 625px;
     }
