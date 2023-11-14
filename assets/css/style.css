@@ -128,7 +128,7 @@ footer {
 }
 /* Set background image for contactus.html */
 .contactformimage {
-    background: url(../images/compressed-max-tutak-unsplash.webp) no-repeat center/cover;
+    background: url(../images/compressed-contactusimage.webp) no-repeat center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,7 +206,7 @@ footer {
 }
 /* Setting background image of signup.html */
 .signupimage {
-    background: url(../images/compressed-pexels-jep-gambardella.webp) no-repeat center/cover;
+    background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,7 +283,7 @@ footer {
 #heroimage {
     height: 400px;
     width: 100%;
-    background: url('../images/compressed-johny-goerend-unsplash.webp') no-repeat center/cover;
+    background: url('../images/compressed-heroimage.webp') no-repeat center/cover;
     position: relative;
     margin: 0;
     margin-bottom: 10px;
@@ -326,7 +326,7 @@ footer {
 }
 
 #bloglink {
-    background: url(../images/pexels-polina-tankilevitch-4110404.webp) no-repeat center/cover;
+    background: url(../images/calltoactionimage-tankilevitch.webp) no-repeat center/cover;
     height: 300px;
     display: flex;
     align-items: flex-end;
@@ -402,7 +402,7 @@ footer {
     #heroimage {
         height: 600px;
         width: 100%;
-        background: url('../images/johny-goerend-pnigODapPek-unsplash.webp') no-repeat top/cover;
+        background: url('../images/heroimage.webp') no-repeat top/cover;
         position: relative;
         margin: 0;
         margin-bottom: 0;
@@ -475,7 +475,7 @@ footer {
 
     /* Loads higher resolution image and puts contact form to left of page */
     .contactformimage {
-        background: url(../images/max-tutak-unsplash.webp) no-repeat right/cover;
+        background: url(../images/contactusimage.webp) no-repeat right/cover;
         justify-content: flex-start;
         height: 625px;
         flex-direction: row;
@@ -498,7 +498,7 @@ footer {
     }
 
     .signupimage {
-        background: url(../images/compressed-pexels-jep-gambardella.webp) no-repeat center/cover;
+        background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
         justify-content: flex-start;
         height: 625px;
     }
