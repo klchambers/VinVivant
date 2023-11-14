@@ -554,12 +554,11 @@ footer {
     }
     #cta {
         width: 50vw;
-        color: #FFFFFF;
+        color: antiquewhite;
         justify-content: center;
     }
     #bloglink {
         width: 50vw;
-        margin-left: 1px;
     }
     .flexcontent {
         flex-direction: row;
