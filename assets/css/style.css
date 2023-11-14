@@ -539,3 +539,21 @@ footer {
         font-weight: bold;
     }
 }
+/* Media query for largest screens */
+@media screen and (min-width: 1400px) {
+    /* Extending width of hero image and putting title box in center */
+    #heroimage {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    /* Centres hero text and increases size*/
+    #herotext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 250px;
+        font-size: 2.5rem;
+    }
+}
