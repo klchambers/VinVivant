@@ -16,13 +16,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
-
 <body>
+    <!-- Page header -->
     <header id="page-header">
         <h1><a href="index.html" id="logo">VinVivant</a></h1>
         <!-- Hidden checkbox to add toggle, adapted from Code Institute's "Love Running" project-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <!-- Navigation section -->
         <nav>
             <ul id="navigation">
                 <li><a href="blog.html" class="internal-link" aria-label="Go to our blog">Blog</a></li>
@@ -35,9 +36,11 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Main content -->
     <main>
+        <!-- Background image of page -->
         <section class="contactformimage">
+            <!-- Box containing contact us form -->
             <div class="contactformbox">
                 <!--Opens new mail message to below address, with form data pre-included-->
                 <form action="mailto:kieran.l.chambers@gmail.com" method="POST" class="form" enctype="text/plain">
@@ -52,6 +55,7 @@
                     <input type="submit" class="submitbutton" value="Send">
                 </form>
             </div>
+            <!-- Box containing contact us info -->
             <div class="contactformbox">
                 <div>
                     <h3>Where to find us</h3>
@@ -66,7 +70,7 @@
                     <h3><strong>Opening hours</strong></h3>
 
                 </div>
-
+                <!-- Google maps iframe -->
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4682.589899166844!2d-8.477688389749504!3d51.89838475294161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1699792994737!5m2!1sen!2sie"
                     width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
@@ -74,13 +78,16 @@
             </div>
         </section>
     </main>
-
+    <!-- Footer section -->
     <footer>
         <section id="copyright">
+            <!-- Hidden heading -->
             <h2 class="hidden">Copyright</h2>© Kieran Chambers 2023
         </section>
         <section>
+            <!-- Hidden heading -->
             <h2 class="hidden">Social Media</h2>
+            <!-- Social media links and icons -->
             <ul id="social-links">
                 <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                         aria-label="Visit our Facebook page (opens in a new tab)"><i
@@ -104,5 +111,4 @@
     <!-- Importing icons from Font Awesome -->
     <script src="https://kit.fontawesome.com/1109df0b76.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
