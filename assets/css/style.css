@@ -37,6 +37,33 @@ header {
     align-items: baseline;
 }
 
+/* Nav toggle, adapted from Code Institute's "Love Running" project */
+
+nav {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+    padding-bottom: 10px;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 main {
     /* Make main content take up extra space - push footer down */
     flex: 1 0 auto;
@@ -251,33 +278,6 @@ footer {
     right: 0;
     padding-bottom: 10px;
     padding-top: 5px;
-}
-
-/* Nav toggle, adapted from Code Institute's "Love Running" project */
-
-nav {
-    position: absolute;
-    background-color: #FFFFFF;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-    padding-bottom: 10px;
-}
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
 }
 
 #heroimage {
