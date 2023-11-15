@@ -5,7 +5,7 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 ## Acknowledgements
 
-Blog image photos provided by Stephanie Martínez
+Blog image photos by Stephanie Martínez
 
 Hero image photo by [Johny Goerend](https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
 
