@@ -199,16 +199,14 @@ footer {
 
 /* Sets blog div to display contents in a column */
 .blog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 25px;
 }
 
 .blogimg {
     text-decoration: none;
     max-height: 313px;
     max-width: 313px;
+    margin-bottom: 50px;
 }
 
 .blogpost {
@@ -450,14 +448,17 @@ footer {
         flex-direction: row;
     }
 
-    .posts {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 25px;
+    .blog {
+        column-count: 2;
+    }
+
+    .blogimg {
+        margin-bottom: 10px;
         margin: 25px;
-        justify-content: space-evenly;
-        flex-grow: 1;
-        max-height: 25rem;
+    }
+
+    .blogposts {
+        column-count: 2;
     }
 
     #bloglink {
@@ -595,9 +596,12 @@ footer {
 
     .posts {
         display: block;
-        column-count: 4;
         max-width: fit-content;
         max-height: fit-content;
+    }
+
+    .blog {
+        column-count: 4;
     }
 
     .blogtext:hover {
