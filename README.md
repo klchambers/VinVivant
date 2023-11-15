@@ -5,6 +5,8 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 ## Acknowledgements
 
+Blog image photos provided by Stephanie Martínez
+
 Hero image photo by [Johny Goerend](https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
 
 Blog photo by [Polina Tankilevitch](https://www.pexels.com/photo/spilled-red-wine-from-a-glass-4110404/).
