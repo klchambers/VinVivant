@@ -63,6 +63,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* ID selector below styles navigation bar drop down menu - keeping at top of stylesheet near nav selectors */
 #navigation {
     font-size: 110%;
@@ -70,6 +71,7 @@ nav {
     list-style-type: none;
     text-decoration: none;
 }
+
 /* ID selector below styles navigation bar drop down list - keeping at top of style sheet near nav selector */
 #navigation li {
     font-size: 110%;
@@ -98,6 +100,7 @@ footer {
     justify-content: space-between;
     padding-right: 10px;
 }
+
 /* Styling social media icons from Font Awesome */
 .fa-brands {
     text-align: center;
@@ -107,6 +110,7 @@ footer {
     padding: 5px;
     font-size: 25px;
 }
+
 /* Styling flex content on index.html */
 .flexcontent {
     display: flex;
@@ -114,6 +118,7 @@ footer {
     font-size: larger;
     text-align: center;
 }
+
 /* Styling form class */
 .form {
     display: flex;
@@ -121,11 +126,13 @@ footer {
     width: 70vw;
     text-align: center;
 }
+
 /* Styling form labels */
 .formlabel {
     padding-top: 5px;
     font-size: 20px
 }
+
 /* Set background image for contactus.html */
 .contactformimage {
     background: url(../images/compressed-contactusimage.webp) no-repeat center/cover;
@@ -136,6 +143,7 @@ footer {
     height: auto;
     width: auto;
 }
+
 /* Styles the div containing form on contactus.html */
 .contactformbox {
     background-color: rgba(71, 108, 70, 0.8);
@@ -151,6 +159,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 /* Styles the div containing contact info on contactus.html */
 .contactinfobox {
     background-color: rgba(71, 108, 70, 0.8);
@@ -177,6 +186,7 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
 /* Styles the submit button on signup.html and contactus.html */
 .submitbutton {
     color: antiquewhite;
@@ -187,6 +197,7 @@ footer {
     font-weight: bolder;
 }
 
+/* Sets blog div to display contents in a column */
 .blog {
     display: flex;
     flex-direction: column;
@@ -196,6 +207,8 @@ footer {
 
 .blogimg {
     text-decoration: none;
+    max-height: 313px;
+    max-width: 313px;
 }
 
 .blogpost {
@@ -209,6 +222,7 @@ footer {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
     padding: 10px;
+    margin: 25px 0;
 }
 
 .blogtext {
@@ -218,6 +232,7 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .blog1 {
@@ -257,6 +272,7 @@ footer {
     height: 100vh;
     width: auto;
 }
+
 /* Styles the div containing form on signup.html */
 .signupbox {
     background-color: rgba(71, 108, 70, 0.8);
@@ -271,21 +287,25 @@ footer {
     border-radius: 3%;
     padding-top: 30px;
 }
+
 /* Set styles for newsletter preference checkboxes on signup.html */
 .newsprefs {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 /* Set styles for newsletter frequency radio buttons on signup.html */
 .signupprefs {
     display: flex;
     flex-direction: row;
 }
+
 /* Styles the footer across all pages */
 #copyright {
     text-align: center;
 }
+
 /* Styles social media links, displaus in a row with even space between them */
 #social-links {
     list-style-type: none;
@@ -307,6 +327,7 @@ footer {
     margin: 10px;
     list-style-type: none;
 }
+
 /* Styles h1 link in header */
 #logo {
     text-decoration: none;
@@ -429,6 +450,16 @@ footer {
         flex-direction: row;
     }
 
+    .posts {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 25px;
+        margin: 25px;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        max-height: 25rem;
+    }
+
     #bloglink {
         width: 463px;
         height: 15em;
@@ -541,6 +572,7 @@ footer {
     .form {
         width: 25vw;
     }
+
     /* Loads higher resolution image on larger screens, and pushes div to flex-start */
     .signupimage {
         background: url(../images/signup-bgimage.webp) no-repeat center/cover;
@@ -555,6 +587,21 @@ footer {
     .submitbutton:hover {
         background-color: antiquewhite;
         color: rgba(71, 108, 70, 1);
+    }
+
+    .blogpost{
+        margin: 0;
+    }
+
+    .posts {
+        display: block;
+        column-count: 4;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .blogtext:hover {
+        text-decoration: underline;
     }
 
     #logo {
@@ -584,6 +631,7 @@ footer {
         font-weight: bold;
     }
 }
+
 /* Media query for largest screens */
 @media screen and (min-width: 1400px) {
     .laptopdisplay {
@@ -596,25 +644,30 @@ footer {
         height: 347px;
         background-color: rgba(71, 108, 70, 1);
     }
+
     #cta {
         width: 50vw;
         color: antiquewhite;
         justify-content: center;
     }
+
     #bloglink {
         width: 50vw;
     }
+
     .flexcontent {
         flex-direction: row;
         justify-content: space-between;
         height: fit-content;
     }
+
     /* Extending width of hero image and putting title box in center */
     #heroimage {
-      width: 100%;
-      display: flex;
-      justify-content: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
+
     /* Centres hero text and increases size*/
     #herotext {
         display: flex;
