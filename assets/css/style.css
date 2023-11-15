@@ -189,21 +189,65 @@ footer {
 
 .blog {
     display: flex;
-    column-count: 2;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogimg {
+    text-decoration: none;
 }
 
 .blogpost {
-    height: 175px;
-    width: 175px;
-    background-color: rgba(71, 108, 70, 0.8);
-    border-radius: 20px;
+    height: auto;
+    width: 25vw;
     display: flex;
-    margin-bottom: 10px;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(71, 108, 70, 0.8);
+    color: antiquewhite;
+    padding: 10px;
 }
+
+.blogtext {
+    height: fit-content;
+    background-color: rgba(71, 108, 70, 0.8);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.blog1 {
+    background: url(../images/blogimages/didimikrakhuna.webp) no-repeat center/cover;
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.blog2 {
+    background: url(../images/blogimages/vinaterosbravos.webp) no-repeat bottom/cover;
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.blog3 {
+    background: url(../images/blogimages/nuitd.webp) no-repeat bottom/cover;
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.blog4 {
+    background: url(../images/blogimages/raiz.webp) no-repeat bottom/cover;
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
+}
+
 /* Setting background image of signup.html */
 .signupimage {
     background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
