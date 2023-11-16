@@ -308,7 +308,7 @@ footer {
 }
 
 #blogpage3 {
-    background: url(../images/blogimages/nuitd.webp) no-repeat center/cover;
+    background: url(../images/blogimages/nuitd.webp) no-repeat bottom/cover;
     height: 50vh;
     width: 100%;
     display: flex;
