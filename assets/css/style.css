@@ -230,9 +230,13 @@ footer {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
     display: flex;
-    justify-content: center;
     font-size: 1.5rem;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.blogtext h3 {
+    font-size: smaller;
 }
 
 /* Styling images and setting image filepaths */
@@ -265,14 +269,17 @@ footer {
 }
 
 /* Blog page title */
-.blogpage {
+.blogpagetitle {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    padding: 15px;
-    justify-content: center;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+/* Centres title on blog pages */
+
+.blogpagetitle>h3 {
+    text-align: center;
 }
 
 /* Styling blog page header image */
@@ -280,8 +287,11 @@ footer {
     background: url(../images/blogimages/didimikrakhuna.webp) no-repeat center/cover;
     height: 30vh;
     width: 100%;
-
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
 }
+
 /* Setting background image of signup.html */
 .signupimage {
     background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
