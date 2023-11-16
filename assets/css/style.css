@@ -225,7 +225,7 @@ footer {
 }
 
 /* Styling text box in blog link images */
-.blogtext {
+.blogtitletext {
     height: fit-content;
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -235,7 +235,7 @@ footer {
     text-align: center;
 }
 
-.blogtext h3 {
+.blogtitletext h3 {
     font-size: smaller;
 }
 
@@ -274,12 +274,18 @@ footer {
     color: antiquewhite;
     height: fit-content;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 /* Centres title on blog pages */
 
 .blogpagetitle>h3 {
     text-align: center;
+}
+
+.blogtext {
+    margin: auto;
+    width: 85vw;
 }
 
 /* Styling blog page header image */
@@ -630,7 +636,7 @@ footer {
         column-count: 4;
     }
 
-    .blogtext:hover {
+    .blogtitletext:hover {
         text-decoration: underline;
     }
 
