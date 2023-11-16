@@ -202,6 +202,7 @@ footer {
     margin: 25px;
 }
 
+/* Removes hyperlink styling and sets uniform size to images */
 .blogimg {
     text-decoration: none;
     max-height: 313px;
@@ -223,6 +224,7 @@ footer {
     margin-bottom: 25px;
 }
 
+/* Styling text box in blog link images */
 .blogtext {
     height: fit-content;
     background-color: rgba(71, 108, 70, 0.8);
@@ -233,6 +235,7 @@ footer {
     margin-bottom: 30px;
 }
 
+/* Styling images and setting image filepaths */
 .blog1 {
     background: url(../images/blogimages/didimikrakhuna.webp) no-repeat center/cover;
     height: 350px;
@@ -261,6 +264,24 @@ footer {
     max-width: 350px;
 }
 
+/* Blog page title */
+.blogpage {
+    background-color: rgba(71, 108, 70, 0.8);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 15px;
+    justify-content: center;
+}
+
+/* Styling blog page header image */
+#blogpage1 {
+    background: url(../images/blogimages/didimikrakhuna.webp) no-repeat center/cover;
+    height: 30vh;
+    width: 100%;
+
+}
 /* Setting background image of signup.html */
 .signupimage {
     background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
@@ -585,7 +606,7 @@ footer {
         color: rgba(71, 108, 70, 1);
     }
 
-    .blogpost{
+    .blogpost {
         margin: 0;
     }
 
