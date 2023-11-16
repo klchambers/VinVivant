@@ -486,10 +486,9 @@ footer {
         display: flex;
         align-content: center;
         justify-content: space-around;
-        /*max-width: 463px;*/
         flex-grow: 1;
     }
-
+    /* Displaying blog posts in columns of two on blog.html */
     .blog {
         column-count: 2;
     }
@@ -497,7 +496,7 @@ footer {
     .blogpost {
         margin-bottom: 20px;
     }
-
+    /* Increasing font size of blog article subtitle on image, and setting 20px margin */
     .blogtext{
         margin: 20px;
         font-size: 120%;
@@ -521,22 +520,22 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    /* Making images larger on larger displays */
+    /* Making images larger on larger displays, moving blog article title to top of image */
     #blogpage1 {
         height: 100vh;
         align-items: flex-start;
     }
-
+    /* Making images larger on larger displays, moving blog article title to top of image */
     #blogpage2 {
         height: 100vh;
         align-items: flex-start;
     }
-
+    /* Making images larger on larger displays, moving blog article title to top of image */
     #blogpage3 {
         height: 100vh;
         align-items: flex-start;
     }
-
+    /* Making images larger on larger displays, moving blog article title to top of image */
     #blogpage4 {
         height: 100vh;
         align-items: flex-start;
@@ -548,11 +547,11 @@ footer {
         background-position: top;
     }
 
-    /* Setting font size of text in Call to Action element of homepage*/
+    /* Setting font size of text in Call to Action (newsletter signup link) element of homepage*/
     #cta a {
         font-size: xx-large;
     }
-
+    /* Setting font size of text in Call to Action (newsletter signup link) element of homepage */ 
     #cta p {
         font-size: xx-large;
     }
@@ -615,12 +614,12 @@ footer {
         align-items: center;
     }
 
-    /* Creates tiled display on larger screens */
+    /* Creates tiled display on larger screens, with .flexcontent class divs next to hero image */
     .laptopdisplay {
         display: flex;
         flex-direction: row;
     }
-
+    /* Display call to action (Newsletter signup) box and blog image one above the other */
     .flexcontent {
         flex-direction: column;
     }
@@ -680,7 +679,7 @@ footer {
         max-width: fit-content;
         max-height: fit-content;
     }
-
+    /* Displays mlog links horizontally on larger screens */
     .blog {
         column-count: 4;
     }
@@ -688,7 +687,7 @@ footer {
     .blogtitletext:hover {
         text-decoration: underline;
     }
-
+    /* Increases VinVivant logo text on larger screens */
     #logo {
         font-size: 125%;
     }
@@ -719,31 +718,33 @@ footer {
 
 /* Media query for largest screens */
 @media screen and (min-width: 1400px) {
+    /* Makes hero image take up full width of screen on largest screens, with call to action/blog image below */
     .laptopdisplay {
         flex-direction: column;
     }
+    /* Displaying call to action (newsletter signup) box and blog image side by side */
+    .flexcontent {
+        flex-direction: row;
+        justify-content: space-between;
+        height: fit-content;
+    }
 
+    /* Increases size of call to action box and changes colour to improve contrast against header/footer */
     .ctabox {
         width: 50vw;
         max-width: fit-content;
         height: 347px;
         background-color: rgba(71, 108, 70, 1);
     }
-
+    /* Increase width of call to action box and changes text colour from green to white, making text readable */
     #cta {
         width: 50vw;
         color: antiquewhite;
         justify-content: center;
     }
-
+    /* Makes blog link image take up 50% of viewport width on larger screen */
     #bloglink {
         width: 50vw;
-    }
-
-    .flexcontent {
-        flex-direction: row;
-        justify-content: space-between;
-        height: fit-content;
     }
 
     /* Extending width of hero image and putting title box in center */
