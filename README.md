@@ -9,6 +9,8 @@ Blog image photos by Stephanie Martínez.
 
 Blog text in blogpost1.html by Len Ahern.
 
+Blog text in blogpost3.html by Le Caveau Wine Merchants, Kilkenny.
+
 Hero image photo by [Johny Goerend](https://unsplash.com/@johnygoerend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-grass-field-during-daytime-pnigODapPek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
 
 Blog photo by [Polina Tankilevitch](https://www.pexels.com/photo/spilled-red-wine-from-a-glass-4110404/).
