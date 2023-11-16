@@ -290,7 +290,7 @@ footer {
 
 /* Styling blog page header image */
 #blogpage1 {
-    background: url(../images/blogimages/didimikrakhuna2.webp) no-repeat bottom/cover;
+    background: url(../images/blogimages/didimikrakhuna2.webp) no-repeat center/cover;
     height: 50vh;
     width: 100%;
     display: flex;
