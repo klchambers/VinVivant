@@ -284,20 +284,46 @@ footer {
 }
 
 .blogtext {
-    margin: auto;
+    margin: 25px auto;
     width: 85vw;
 }
 
 /* Styling blog page header image */
 #blogpage1 {
-    background: url(../images/blogimages/didimikrakhuna.webp) no-repeat center/cover;
-    height: 30vh;
+    background: url(../images/blogimages/didimikrakhuna2.webp) no-repeat bottom/cover;
+    height: 50vh;
     width: 100%;
     display: flex;
     align-items: flex-end;
     padding: 15px;
 }
 
+#blogpage2 {
+    background: url(../images/blogimages/vinaterosbravos.webp) no-repeat center/cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+#blogpage3 {
+    background: url(../images/blogimages/nuitd.webp) no-repeat center/cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+#blogpage4 {
+    background: url(../images/blogimages/raiz.webp) no-repeat center/cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+}
 /* Setting background image of signup.html */
 .signupimage {
     background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
