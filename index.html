@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
+
 <body>
     <!-- Page header -->
     <header id="page-header">
@@ -27,8 +28,6 @@
         <nav>
             <ul id="navigation">
                 <li><a href="blog.html" class="internal-link" aria-label="Go to our blog">Blog</a></li>
-                <li><a href="aboutus.html" class="internal-link" aria-label="Go to the 'about us' page">About Us</a>
-                </li>
                 <li><a href="contactus.html" class="internal-link" aria-label="Go to our 'contact us' page">Contact
                         Us</a></li>
                 <li><a href="signup.html" class="internal-link" aria-label="Go to our newsletter sign up page">Sign
@@ -38,33 +37,33 @@
     </header>
     <!--class 'laptopdisplay' only used with larger screen sizes. Displays child elements in a row. -->
     <main class="laptopdisplay">
-            <!-- Hero image -->
-            <section id="heroimage">
-                <!-- Hidden heading -->
-                <h2 class="hidden">VinVivant Natural Wine</h2>
-                <div id="herotext">
-                    <h2>Welcome to VinVivant</h2>
-                    <p>Your blog for natural wine updates, news, and reviews</p>
+        <!-- Hero image -->
+        <section id="heroimage">
+            <!-- Hidden heading -->
+            <h2 class="hidden">VinVivant Natural Wine</h2>
+            <div id="herotext">
+                <h2>Welcome to VinVivant</h2>
+                <p>Your blog for natural wine updates, news, and reviews</p>
+            </div>
+        </section>
+        <!-- Call to action box and link to blog wrapped in .flexcontent div -->
+        <div class="flexcontent">
+            <section class="ctabox">
+                <div id="cta">
+                    <h3><a href="signup.html">Sign up to our newsletter</a>
+                    </h3>
+                    <p>Receive weekly content direct to your inbox!</p>
                 </div>
             </section>
-            <!-- Call to action box and link to blog wrapped in .flexcontent div -->
-            <div class="flexcontent">
-                <section class="ctabox">
-                    <div id="cta">
-                        <h3><a href="signup.html">Sign up to our newsletter</a>
-                        </h3>
-                        <p>Receive weekly content direct to your inbox!</p>
+            <section>
+                <!-- <a> tag makes image a clickable link -->
+                <a href="blog.html" class="imglink">
+                    <div id="bloglink">
+                        <h3>Visit the VinVivant blog</h3>
                     </div>
-                </section>
-                <section>
-                    <!-- <a> tag makes image a clickable link -->
-                    <a href="blog.html" class="imglink">
-                        <div id="bloglink">
-                            <h3>Visit the VinVivant blog</h3>
-                        </div>
-                    </a>
-                </section>
-            </div>
+                </a>
+            </section>
+        </div>
     </main>
     <!-- Page footer -->
     <footer>
@@ -98,4 +97,5 @@
     <!-- Importing icons from Font Awesome -->
     <script src="https://kit.fontawesome.com/1109df0b76.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
