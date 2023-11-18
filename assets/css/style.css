@@ -315,7 +315,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 85vh;
+    overflow-y: scroll;
     width: auto;
 }
 
@@ -332,6 +333,9 @@ footer {
     align-self: center;
     border-radius: 3%;
     padding: 30px;
+    padding-bottom: 25px;
+    margin-top: 20%;
+    margin-bottom: 0;
 }
 
 /* Set styles for newsletter preference checkboxes on signup.html */
@@ -511,6 +515,10 @@ footer {
     /* Setting map iframe to the right of contact info */
     .contactformbox {
         flex-direction: row;
+    }
+    /* Bringing sign up form to top of screen so user does not need to scroll down page */
+    .signupbox {
+        margin-top: 10px;
     }
 
     /* Increasing size of title text */
