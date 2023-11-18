@@ -434,6 +434,7 @@ footer {
     font-size: x-large;
     color: inherit;
 }
+
 /* Setting font of <p> elements in Call to Action box*/
 #cta p {
     font-family: 'Assistant', Arial, Helvetica, sans-serif;
@@ -516,6 +517,7 @@ footer {
     .contactformbox {
         flex-direction: row;
     }
+
     /* Bringing sign up form to top of screen so user does not need to scroll down page */
     .signupbox {
         margin-top: 10px;
@@ -555,6 +557,7 @@ footer {
         height: 100vh;
         align-items: flex-start;
     }
+
     /* Setting width and height of blog image link on index.html and repositioning image */
     #bloglink {
         width: 463px;
