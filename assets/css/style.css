@@ -89,6 +89,11 @@ main {
 
 }
 
+/* Prevents textarea input from being resized on contactus.html */
+textarea {
+    resize: none;
+}
+
 footer {
     height: 90px;
     background-color: rgba(71, 108, 70, 1);
