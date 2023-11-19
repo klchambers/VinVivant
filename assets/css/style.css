@@ -257,61 +257,34 @@ footer {
     max-width: 350px;
 }
 
-/* Blog page title */
-.blogpagetitle {
+.blogdiv {
+    display: inline-block;
+    position: relative;
+}
+/* Setting image dimensions */
+.blogphoto {
+    display: block;
+    object-fit: cover;
+    height: 500px;
+    width: 100vw;
+}
+/*Styling title/image caption for blog post */
+.blogtitlebox {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
     height: fit-content;
     border-radius: 5px;
     margin: 0 auto;
-}
-
-/* Centres title on blog pages */
-
-.blogpagetitle>h3 {
+    position: absolute;
+    transform: translateY(-150%);
+    margin: -10% 10%;
     text-align: center;
 }
 
+/* KEEP THIS styling blog text content */
 .blogtext {
     margin: 25px auto;
     width: 85vw;
-}
-
-/* Styling blog page header image */
-#blogpage1 {
-    background: url(../images/blogimages/didimikrakhuna2.webp) no-repeat center/cover;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 15px;
-}
-
-#blogpage2 {
-    background: url(../images/blogimages/vinaterosbravos.webp) no-repeat center/cover;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 15px;
-}
-
-#blogpage3 {
-    background: url(../images/blogimages/nuitd.webp) no-repeat bottom/cover;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 15px;
-}
-
-#blogpage4 {
-    background: url(../images/blogimages/raiz.webp) no-repeat center/cover;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 15px;
 }
 
 /* Setting background image of signup.html */
@@ -529,38 +502,11 @@ footer {
     }
 
     /* Increasing size of title text */
-    .blogpagetitle {
-        font-size: 150%;
-    }
 
     /* Placing text to the right of image on larger displays */
     #blog {
         display: flex;
         flex-direction: row;
-    }
-
-    /* Making images larger on larger displays, moving blog article title to top of image */
-    #blogpage1 {
-        height: 100vh;
-        align-items: flex-start;
-    }
-
-    /* Making images larger on larger displays, moving blog article title to top of image */
-    #blogpage2 {
-        height: 100vh;
-        align-items: flex-start;
-    }
-
-    /* Making images larger on larger displays, moving blog article title to top of image */
-    #blogpage3 {
-        height: 100vh;
-        align-items: flex-start;
-    }
-
-    /* Making images larger on larger displays, moving blog article title to top of image */
-    #blogpage4 {
-        height: 100vh;
-        align-items: flex-start;
     }
 
     /* Setting width and height of blog image link on index.html and repositioning image */
@@ -717,6 +663,19 @@ footer {
         text-decoration: underline;
     }
 
+    .blogphoto {
+        height: 80vh;
+        width: 50vw;
+    }
+
+    .blogtext {
+        margin: 15px;
+    }
+
+    .blogtitlebox {
+        font-size: 120%;
+    }
+
     /* Increases VinVivant logo text on larger screens */
     #logo {
         font-size: 125%;
@@ -761,6 +720,15 @@ footer {
         height: fit-content;
     }
 
+    .blogtext {
+        margin: 30px;
+        font-size: 150%;
+    }
+
+    .blogtitlebox {
+        font-size: 150%;
+        transform: translateY(-1250%);
+    }
     /* Increases size of call to action box and changes colour to improve contrast against header/footer */
     .ctabox {
         width: 50vw;
