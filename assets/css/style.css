@@ -774,11 +774,14 @@ footer {
         width: 50vw;
         color: antiquewhite;
         justify-content: center;
+        transform: translateY(0);
     }
 
     /* Makes blog link image take up 50% of viewport width on larger screen */
     #bloglink {
         width: 50vw;
+        /* Repositioning image to improve contrast between image and text */
+        background-position-y: 60%;
     }
 
     /* Extending width of hero image and putting title box in center */
