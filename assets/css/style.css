@@ -799,5 +799,7 @@ footer {
         flex-direction: column;
         height: 250px;
         font-size: 2.5rem;
+        margin-bottom: 5%;
+        padding: 50px;
     }
 }
