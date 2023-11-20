@@ -485,6 +485,11 @@ footer {
         font-size: 120%;
     }
 
+
+    .blogphoto {
+        width: 50vw;
+    }
+
     /* Displaying address and telephone vertically in column */
     .contactinfo {
         display: flex;
@@ -654,7 +659,7 @@ footer {
         max-height: fit-content;
     }
 
-    /* Displays mlog links horizontally on larger screens */
+    /* Displays blog links horizontally on larger screens */
     .blog {
         column-count: 4;
     }
