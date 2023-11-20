@@ -2,7 +2,7 @@
 
 VinVivant is a blog about natural wine featuring natural wine reviews, with the option for the user to sign up to a newsletter to receive blog posts via email, and a contact form to enter their contact details and send a message.
 
-It is primarily targeted at those with an interest in wine and natural winemaking, but the informative nature of the site will make it ideal for those without prior knowledge to learn more, with the potential to add blog posts about different, grape varietals, winemaking regions, terminology, and styles.
+It is primarily targeted at those with an interest in wine and natural winemaking, but the informative nature of the site will make it ideal for those without prior knowledge to learn more, with the potential to add blog posts about different grape varietals, winemaking regions, terminology, and styles.
 
 ![VinVivant responsiveness mockup](/assets/READMEcontent/ui-responsiveness2.png)
 
@@ -21,6 +21,11 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 * I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
 * I would like the site to be informative and for this information to be easy and enjoyable to access
 
+## Technologies used
+* VSCode: Writing and editing HTML and CSS files
+* GitHub: Source control
+* GitHub Pages: Live deployment of site
+* Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
 
 ## Acknowledgements
 
