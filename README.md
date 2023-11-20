@@ -1,3 +1,12 @@
+**Table of contents:**
+
+ - [Introduction](#intro)
+ - [Deployed Site](#ghpageslink)
+ - [User Experience](#ux)
+ - [Technologies Used](#tools)
+ - [Acknowledgements](#acknowledgements)
+
+<a id=#intro></a>
 # VinVivant
 
 VinVivant is a blog about natural wine featuring natural wine reviews, with the option for the user to sign up to a newsletter to receive blog posts via email, and a contact form to enter their contact details and send a message.
@@ -6,9 +15,11 @@ It is primarily targeted at those with an interest in wine and natural winemakin
 
 ![VinVivant responsiveness mockup](/assets/READMEcontent/ui-responsiveness2.png)
 
+<a id=#ghpageslink></a>
 ## Deployed site
 VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
+<a id=#ux></a>
 ## User Experience
 ### User Goals
 * The site should be laid out well and visually appealing
@@ -21,12 +32,14 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 * I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
 * I would like the site to be informative and for this information to be easy and enjoyable to access
 
+<a id=#tools></a>
 ## Technologies used
 * VSCode: Writing and editing HTML and CSS files
 * GitHub: Source control
 * GitHub Pages: Live deployment of site
 * Balsamiq Wireframes: Creating initial webpage layout mockups during project inception
 
+<a id=#acknowledgements></a>
 ## Acknowledgements
 
 Blog image photos by Stephanie Martínez.
