@@ -4,6 +4,8 @@ VinVivant is a blog about natural wine featuring natural wine reviews, with the 
 
 It is primarily targeted at those with an interest in wine and natural winemaking, but the informative nature of the site will make it ideal for those without prior knowledge to learn more, with the potential to add blog posts about different, grape varietals, winemaking regions, terminology, and styles.
 
+![VinVivant responsiveness mockup](/assets/READMEcontent/ui-responsiveness2.png)
+
 ## Deployed site
 VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
