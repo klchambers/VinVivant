@@ -4,6 +4,11 @@
 
  - [Introduction](#introduction)
  - [Deployed Site](#deployed-site)
+ - [VinVivant Features](#vinvivant-features)
+   - [Landing Page](#landing-page)
+   - [Blog](#blog)
+   - [Contact Us](#contact-us)
+   - [Newsletter Sign Up](#newsletter-sign-up)
  - [User Experience](#user-experience)
     - [User Goals](#user-goals)
     - [User Stories](#user-stories)
@@ -28,7 +33,42 @@ It is primarily targeted at those with an interest in wine and natural winemakin
 ## Deployed Site
 VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
-<a id=#ux></a>
+<a id=#vinvivant-features></a>
+
+## VinVivant Features
+
+<a id=#landing-page></a>
+
+### Landing Page
+
+The landing page features a hero image, with image links below this inviting the user to visit the VinVivant Blog and the Newsletter Sign Up sections of the website.
+
+![Landing Page Screenshot](/assets/READMEcontent/landingpage.png)
+![Bottom of Landing Page Screenshot](/assets/READMEcontent/landingpagebottom.png)
+![Landing Page mobile Screenshot](/assets/READMEcontent/landingpagemobile.png)
+Content is partially hidden from the user, to indicate that there is more information below the hero image, and to invite them to scroll down further.
+
+<a id=#blog></a>
+
+### Blog
+
+VinVivant/blog.html displays blog posts in a column on mobile devices, and rows/columns increasing as the screen size gets larger.
+
+![Blog section screenshot](/assets/READMEcontent/blogscreenshot.png)
+
+HTML image elements are clickable links, with take the user to the corresponding page for that blog post.
+
+![Blog post example screenshot](/assets/READMEcontent/blogpostscreenshot.png)
+
+<a id=#contact-us></a>
+
+### Contact Us
+
+<a id=#newsletter-sign-up></a>
+
+### Newsletter Sign Up
+
+<a id=#user-experience>
 
 ## User Experience
 
@@ -48,6 +88,14 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 * I would like this content to be displayed properly, regardless of the device, software, or assistive technology I use to access it
 * I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
 * I would like the site to be informative and for this information to be easy and enjoyable to access
+
+### Site Structure
+
+From the homepage (/index.html), the user can visit the following three pages: blog.html, contactus.html, and signup.html.
+
+The navigation bar holds links to the three aforementioned pages, and collapses down into a hamburger icon on smaller screens to optimise the layout with less screen space.
+
+Clicking the VinVivant logo in the top left, from any page, will take the user back to the home page.
 
 <a id=#design></a>
 
