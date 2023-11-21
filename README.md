@@ -120,7 +120,7 @@ In body text, the sans-serif typeface ['Assistant'](https://fonts.google.com/spe
 
 ### Wireframes
 
-During the inception of this project, Balsamiq wireframes was used to create mockups of the responsiveness I wanted to create across device types.
+During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
 
 #### [index.html mobile mockup](/assets/READMEcontent/wireframe1.png)
 #### [index.html tablet mockup](/assets/READMEcontent/wireframe4.png)
