@@ -634,11 +634,13 @@ footer {
     /* Loads higher resolution image on larger screens, and pushes div to flex-start */
     .signupimage {
         background: url(../images/signup-bgimage.webp) no-repeat center/cover;
+        flex-direction: row;
         justify-content: flex-start;
-        height: 80vh;
+        height: 90vh;
     }
 
     .signupbox {
+        margin-top: 10vh;
         width: fit-content;
         padding: 50px;
     }
