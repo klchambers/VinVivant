@@ -138,6 +138,19 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 #### [index.html tablet mockup](/assets/READMEcontent/wireframe4.png)
 #### [index.html browser mockup](/assets/READMEcontent/wireframe5.png)
 
+## Testing and Validation
+
+### Jigsaw CSS Validator
+
+The Jigsaw CSS validator was used and returned no errors or warnings. The Jigsaw validator results can be viewed [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+
+### W3C HTML Validator
+
+All page URLs were entered into the W3C HTML Validator and returned no errors or warnings. Results listed below:
+* [Homepage HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2F)
+* [Blog page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblog.html)
+* [Blog post 1 HTML validator results]()
+
 <a id=#technologies-used></a>
 
 ## Technologies Used

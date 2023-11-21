@@ -261,6 +261,7 @@ footer {
     display: inline-block;
     position: relative;
 }
+
 /* Setting image dimensions */
 .blogphoto {
     display: block;
@@ -268,6 +269,7 @@ footer {
     height: 500px;
     width: 100vw;
 }
+
 /*Styling title/image caption for blog post */
 .blogtitlebox {
     background-color: rgba(71, 108, 70, 0.8);
@@ -748,6 +750,7 @@ footer {
         top: 200px;
         left: 5%;
     }
+
     /* Increases size of call to action box and changes colour to improve contrast against header/footer */
     .ctabox {
         width: 50vw;
