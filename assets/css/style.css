@@ -205,7 +205,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -666,6 +666,7 @@ footer {
         display: block;
         max-width: fit-content;
         max-height: fit-content;
+        column-count: auto;
     }
 
     /* Displays blog links horizontally on larger screens */
