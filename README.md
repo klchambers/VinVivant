@@ -17,6 +17,7 @@
  - [Testing and Validation](#testing-and-validation)
     - [Jigsaw CSS Validator](#jigsaw-css-validator)
     - [W3C HTML Validator](#w3c-html-validator)
+    - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
@@ -171,6 +172,9 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 * [Contact Us HTML calidator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fcontactus.html)
 * [Signup page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fsignup.html)
 * [thankyou.html HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fthankyou.html%3Fsignupname%3D1%26signupemail%3D1%2540e.com%26freqpref%3Dmonthly%26news%3Don)
+
+<a id=#lighthouse-Accessibility-Performance
+></a>
 
 ### Lighthouse Accessibility & Performance
 
