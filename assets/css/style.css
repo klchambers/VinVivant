@@ -291,10 +291,10 @@ footer {
 .signupimage {
     background: url(../images/compressed-signup-bgimage.webp) no-repeat center/cover;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 85vh;
-    overflow-y: scroll;
+    height: auto;
     width: auto;
 }
 
@@ -312,8 +312,7 @@ footer {
     border-radius: 3%;
     padding: 30px;
     padding-bottom: 25px;
-    margin-top: 20%;
-    margin-bottom: 0;
+    margin-bottom: 10%;
 }
 
 /* Set styles for newsletter preference checkboxes on signup.html */
@@ -636,11 +635,12 @@ footer {
     .signupimage {
         background: url(../images/signup-bgimage.webp) no-repeat center/cover;
         justify-content: flex-start;
-        height: 625px;
+        height: 80vh;
     }
 
     .signupbox {
-        width: 30vw;
+        width: fit-content;
+        padding: 50px;
     }
 
     /* Alternating colours to highlight to user that they are hovering over the submit button */
