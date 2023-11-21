@@ -41,6 +41,8 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 ### Landing Page
 
+![Landing Page responsiveness screenshot](/assets/READMEcontent/ui-responsiveness1.png)
+
 The landing page features a hero image, with image links below this inviting the user to visit the VinVivant Blog and the Newsletter Sign Up sections of the website.
 
 ![Landing Page Screenshot](/assets/READMEcontent/landingpage.png)
