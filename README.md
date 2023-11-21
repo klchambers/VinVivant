@@ -55,7 +55,17 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 #### Colour
 
+The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a muted green (rgba(71, 108, 70) is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of most natural winemakers.
+
+Background images are overlaid with the same muted green (rgba(71, 108, 70, 0.8), with a colour of 'antique white' to maintain legibility of the text over the image, with the opacity of the text box set to 0.8 to allow the user to see the background image.
+
 #### Typography
+
+[Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
+
+For headings, ['Playfair Display'](https://fonts.google.com/specimen/Playfair+Display?query=playfair) was selected. This neutral serif font is readable, particularly in higher font weights, across all screen sizes and the serif features of it evoke a trustworthy and reputable feeling to the user.
+
+In body text, the sans-serif typeface ['Assistant'](https://fonts.google.com/specimen/Assistant?query=assistant) was used for legibility and adaptability across different font weights and screen sizes.
 
 ### Wireframes
 
@@ -92,9 +102,15 @@ Contact Us background image by [Max Tutak](https://unsplash.com/@maxtutakphotogr
 
 Background photo for signup.html by [Jep Gambardella](https://www.pexels.com/photo/hands-toasting-wine-glasses-with-red-wine-5086617/).
   
-  
+
 Favicons created using [favicon.io](https://favicon.io/).
 
 Icon fonts from [Font Awesome](https://fontawesome.com/).
+
+Fonts imported into style.css from [Google Fonts]().
+
+[Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair) typeface designed by Claus Eggers Sørensen.
+
+[Assistant]() typeface designed by Ben Nathan & Adobe Systems Inc.
 
 Code used to create the class "nav-toggle" was adapted from Code Institute's "[Love Running](https://github.com/Code-Institute-Solutions/love-running-v3)" project.
