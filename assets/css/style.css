@@ -732,7 +732,8 @@ footer {
 
     .blogtitlebox {
         font-size: 150%;
-        transform: translateY(-1250%);
+        top: 200px;
+        left: 5%;
     }
     /* Increases size of call to action box and changes colour to improve contrast against header/footer */
     .ctabox {
