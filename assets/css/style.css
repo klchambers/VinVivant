@@ -488,12 +488,13 @@ footer {
     /* Increasing font size of blog article subtitle on image, and setting 20px margin */
     .blogtext {
         margin: 20px;
-        font-size: 120%;
+        font-size: 110%;
     }
 
 
     .blogphoto {
         width: 50vw;
+        height: 100vh;
     }
 
     /* Displaying address and telephone vertically in column */
@@ -737,7 +738,7 @@ footer {
 
     .blogtext {
         margin: 30px;
-        font-size: 150%;
+        font-size: 110%;
     }
 
     .blogtitlebox {
