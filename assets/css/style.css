@@ -308,7 +308,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: center;
+    align-self: flex-start;
     border-radius: 3%;
     padding: 30px;
     padding-bottom: 25px;
@@ -510,7 +510,7 @@ footer {
 
     /* Bringing sign up form to top of screen so user does not need to scroll down page */
     .signupbox {
-        margin-top: 10px;
+        overflow-y: auto;
     }
 
     /* Increasing size of title text */
