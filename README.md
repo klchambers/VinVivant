@@ -173,8 +173,7 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 * [Signup page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fsignup.html)
 * [thankyou.html HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fthankyou.html%3Fsignupname%3D1%26signupemail%3D1%2540e.com%26freqpref%3Dmonthly%26news%3Don)
 
-<a id=#lighthouse-Accessibility-Performance
-></a>
+<a id=#lighthouse-accessibility-&-performance></a>
 
 ### Lighthouse Accessibility & Performance
 
