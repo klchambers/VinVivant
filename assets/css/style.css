@@ -433,6 +433,13 @@ footer {
     color: inherit;
 }
 
+/* Media query for mobile devices in landscape mode */
+@media screen and (min-width: 667px) {
+    .posts {
+        column-count: 2;
+    }
+}
+
 /* Media query for tablets and larger (768px and above) */
 @media screen and (min-width: 768px) {
 
