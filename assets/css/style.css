@@ -639,6 +639,12 @@ footer {
         width: 25vw;
     }
 
+    .googlemap {
+        width: 350px;
+        height: 200px;
+        padding-left: 50px;
+    }
+
     /* Loads higher resolution image on larger screens, and pushes div to flex-start */
     .signupimage {
         background: url(../images/signup-bgimage.webp) no-repeat center/cover;
