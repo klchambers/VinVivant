@@ -67,9 +67,21 @@ HTML image elements are clickable links, with take the user to the corresponding
 
 ### Contact Us
 
+![Screen cap of contactus.html](/assets/READMEcontent/contact-form-screencap.png)
+
+From the Contact Us page, the user can fill out a contact form, which requires every field to be filled before it can be submitted. Data is validated, and the user is prompted to check that the form has been filled correctly if needed. The form action is linked to the Code Institute's Formdump link to verify when data is correctly submitted.
+
 <a id=#newsletter-sign-up></a>
 
 ### Newsletter Sign Up
+
+On the sign up page is a form for the user to fill out their details and set preferences regarding their newsletter subscription. Text fields are required and the user is prompted to check the data they have entered if it does not meet the requirements
+
+![Newsletter Sign Up page screenshot](/assets/READMEcontent/signup-screeencap.png)
+
+At present, the submit button takes the user to ./thankyou.html, the data is not submitted anywhere yet but this wicanll be implemented in future.
+
+![Screencap of Newsletter Signup](/assets/READMEcontent/signupformcomplete-screenshot.png)
 
 <a id=#user-experience>
 
