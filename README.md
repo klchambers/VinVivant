@@ -44,9 +44,10 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 The landing page features a hero image, with image links below this inviting the user to visit the VinVivant Blog and the Newsletter Sign Up sections of the website.
 
 ![Landing Page Screenshot](/assets/READMEcontent/landingpage.png)
-![Bottom of Landing Page Screenshot](/assets/READMEcontent/landingpagebottom.png)
-![Landing Page mobile Screenshot](/assets/READMEcontent/landingpagemobile.png)
+
 Content is partially hidden from the user, to indicate that there is more information below the hero image, and to invite them to scroll down further.
+
+![Bottom of Landing Page Screenshot](/assets/READMEcontent/landingpagebottom.png)
 
 <a id=#blog></a>
 
