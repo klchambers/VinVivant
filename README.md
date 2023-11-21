@@ -172,6 +172,12 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 * [Signup page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fsignup.html)
 * [thankyou.html HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fthankyou.html%3Fsignupname%3D1%26signupemail%3D1%2540e.com%26freqpref%3Dmonthly%26news%3Don)
 
+### Lighthouse Accessibility & Performance
+
+![Lighthouse Report Summary](/assets/READMEcontent/lighthouse-report.png)
+
+VinVivant performed well across the Lighthouse test. The full report summary can be viewed [here](/assets/READMEcontent/lighthouse-report.pdf).
+
 <a id=#technologies-used></a>
 
 ## Technologies Used
