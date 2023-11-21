@@ -5,11 +5,15 @@
  - [Introduction](#introduction)
  - [Deployed Site](#deployed-site)
  - [User Experience](#user-experience)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
 
-<a id=#intro></a>
+<a id=#introduction></a>
 
 ## Introduction
 
@@ -19,24 +23,39 @@ It is primarily targeted at those with an interest in wine and natural winemakin
 
 ![VinVivant responsiveness mockup](/assets/READMEcontent/ui-responsiveness2.png)
 
-<a id=#ghpageslink></a>
+<a id=#deployed-site></a>
 
-## Deployed site
+## Deployed Site
 VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 <a id=#ux></a>
 
 ## User Experience
+
+<a id=#usergoals></a>
+
 ### User Goals
+
 * The site should be laid out well and visually appealing
 * The site should be structured in a logical manner, with layout and style remaining consistent throughout pages and elements in places where I expect to find them, making navigation simple and intuitive
 * Content should be of good quality
 
+<a id=#userstories></a>
+
 ### User Stories
+
 * I would like to find high quality content
 * I would like this content to be displayed properly, regardless of the device, software, or assistive technology I use to access it
 * I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
 * I would like the site to be informative and for this information to be easy and enjoyable to access
+
+<a id=#design></a>
+
+### Design
+
+#### Colour
+
+#### Typography
 
 ### Wireframes
 
@@ -79,5 +98,3 @@ Favicons created using [favicon.io](https://favicon.io/).
 Icon fonts from [Font Awesome](https://fontawesome.com/).
 
 Code used to create the class "nav-toggle" was adapted from Code Institute's "[Love Running](https://github.com/Code-Institute-Solutions/love-running-v3)" project.
-
-[def]: #tools
