@@ -148,12 +148,18 @@ The Jigsaw CSS validator was used and returned no errors or warnings. The Jigsaw
 
 All page URLs were entered into the W3C HTML Validator and returned no errors or warnings. Results listed below:
 * [Homepage HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2F)
+
 * [Blog page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblog.html)
+
 * [Blog post 1 HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblogpost1.html)
+
 * [Blog post 2 HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblogpost2.html)
+
 * [Blog post 3 HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblogpost3.html)
+
 * [Blog post 4 HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblogpost4.html)
-*[Contact Us HTML calidator results]()
+
+* [Contact Us HTML calidator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fcontactus.html)
 * [Signup page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fsignup.html)
 * [thankyou.html HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fthankyou.html%3Fsignupname%3D1%26signupemail%3D1%2540e.com%26freqpref%3Dmonthly%26news%3Don)
 
