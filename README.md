@@ -38,7 +38,15 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 * I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
 * I would like the site to be informative and for this information to be easy and enjoyable to access
 
-<a id=#technologiesused></a>
+### Wireframes
+
+During the inception of this project, Balsamiq wireframes was used to create mockups of the responsiveness I wanted to create across device types.
+
+#### [index.html mobile mockup](/assets/READMEcontent/wireframe1.png)
+#### [index.html tablet mockup](/assets/READMEcontent/wireframe4.png)
+#### [index.html browser mockup](/assets/READMEcontent/wireframe5.png)
+
+<a id=#technologies-used></a>
 
 ## Technologies Used
 
