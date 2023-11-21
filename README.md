@@ -14,6 +14,9 @@
     - [User Stories](#user-stories)
     - [Design](#design)
     - [Wireframes](#wireframes)
+ - [Testing and Validation](#testing-and-validation)
+    - [Jigsaw CSS Validator](#jigsaw-css-validator)
+    - [W3C HTML Validator](#w3c-html-validator)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
@@ -138,11 +141,17 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 #### [index.html tablet mockup](/assets/READMEcontent/wireframe4.png)
 #### [index.html browser mockup](/assets/READMEcontent/wireframe5.png)
 
+<a id=#testing-and-validation></a>
+
 ## Testing and Validation
+
+<a id=#jigsaw-css-validator></a>
 
 ### Jigsaw CSS Validator
 
 The Jigsaw CSS validator was used and returned no errors or warnings. The Jigsaw validator results can be viewed [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+
+<a id=#w3c-html-validator></a>
 
 ### W3C HTML Validator
 
