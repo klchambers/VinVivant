@@ -94,6 +94,10 @@ textarea {
     resize: none;
 }
 
+input {
+    height: 30px;
+}
+
 footer {
     height: 90px;
     background-color: rgba(71, 108, 70, 1);
