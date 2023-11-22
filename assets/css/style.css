@@ -520,8 +520,6 @@ footer {
         overflow-y: auto;
     }
 
-    /* Increasing size of title text */
-
     /* Placing text to the right of image on larger displays */
     #blog {
         display: flex;
