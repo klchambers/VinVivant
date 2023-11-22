@@ -19,6 +19,9 @@
     - [Jigsaw CSS Validator](#jigsaw-css-validator)
     - [W3C HTML Validator](#w3c-html-validator)
     - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
+ - [Development and Deployment](#development-and-deployment)
+    - [Contributing to VinVivant](#contributing-to-vinvivant)
+    - [Testing Methodology](#testing-methodology)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
@@ -192,9 +195,11 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 
 VinVivant performed well across the Lighthouse test. The full report summary can be viewed [here](/assets/READMEcontent/lighthouse-report.pdf).
 
-<a id=#technologies-used></a>
+<a id=#development-and-deployment></a>
 
 ## Development and Deployment
+
+<a id=#contributing-to-vinvivant></a>
 
 ### Contributing to VinVivant
 
@@ -202,7 +207,9 @@ Development was started by cloning Code Institute's project template (available 
 
 To contribute, make a pull request from the [project repository](https://github.com/klchambers/VinVivant). When merged, any changes will automatically be reflected in the live deployment on Github Pages.
 
-### Testing
+<a id=#testing-methodology></a>
+
+### Testing Methodology
 
 When testing, the following outcomes should be met:
 * Content displays properly on all device screeen sizes in both portrait and landscape orientation by checking on different devices, or using Responsive Design Mode in your browser's Developer Tools.
@@ -214,6 +221,8 @@ When testing, the following outcomes should be met:
 * HTML returns no errors or warnings when checked through the [W3C HTML Validation Service](https://validator.w3.org/).
 
 * CSS returns no errors or warnings when checked through the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+<a id=#technologies-used></a>
 
 ## Technologies Used
 
