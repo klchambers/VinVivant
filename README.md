@@ -83,11 +83,11 @@ From the Contact Us page, the user can fill out a contact form, which requires e
 
 ### Newsletter Sign Up
 
-On the sign up page is a form for the user to fill out their details and set preferences regarding their newsletter subscription. Text fields are required and the user is prompted to check the data they have entered if it does not meet the requirements
+On the sign up page is a form for the user to fill out their details and set preferences regarding their newsletter subscription. Text fields are required and the user is prompted to check the data they have entered if it does not meet the requirements.
 
 ![Newsletter Sign Up page screenshot](/assets/READMEcontent/signup-screeencap.png)
 
-At present, the submit button takes the user to ./thankyou.html, the data is not submitted anywhere yet but this wicanll be implemented in future.
+At present, the submit button takes the user to ./thankyou.html, the data is not submitted anywhere yet but this can be implemented in future.
 
 ![Screencap of Newsletter Signup](/assets/READMEcontent/signupformcomplete-screenshot.png)
 
@@ -126,7 +126,7 @@ Clicking the VinVivant logo in the top left, from any page, will take the user b
 
 #### Colour
 
-The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a muted green (rgba(71, 108, 70) is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of most natural winemakers.
+The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a muted green (rgba(71, 108, 70) is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of many natural winemakers.
 
 Background images are overlaid with the same muted green (rgba(71, 108, 70, 0.8), with a colour of 'antique white' to maintain legibility of the text over the image, with the opacity of the text box set to 0.8 to allow the user to see the background image.
 
@@ -183,7 +183,7 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 
 * [Blog post 4 HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fblogpost4.html)
 
-* [Contact Us HTML calidator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fcontactus.html)
+* [Contact Us HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fcontactus.html)
 * [Signup page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fsignup.html)
 * [thankyou.html HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklchambers.github.io%2FVinVivant%2Fthankyou.html%3Fsignupname%3D1%26signupemail%3D1%2540e.com%26freqpref%3Dmonthly%26news%3Don)
 
