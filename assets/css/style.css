@@ -793,3 +793,12 @@ footer {
         padding: 50px;
     }
 }
+
+/* Media query for smaller devices in landscape mode */
+@media screen and (max-height: 400px) {
+    /* Preventing signup form from being hidden by header and footer on smaller devices in landscspe mode */
+    .signupimage {
+        height: auto;
+        width: auto;
+    }
+}
