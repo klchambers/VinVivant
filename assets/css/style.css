@@ -94,6 +94,7 @@ textarea {
     resize: none;
 }
 
+/* Setting height of all input elements */
 input {
     height: 30px;
 }
@@ -631,6 +632,8 @@ footer {
     /* Making space between contact details and Google maps iframe */
     .contactinfo {
         padding-right: 5vw;
+        /* Removing text decoration from phone number on mobile devices */
+        text-decoration: none;
     }
 
     /* Sets appropriate form width for laptop screens */
