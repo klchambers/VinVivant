@@ -15,6 +15,7 @@
     - [Design](#design)
     - [Wireframes](#wireframes)
  - [Testing and Validation](#testing-and-validation)
+    - [Testing](#testing)
     - [Jigsaw CSS Validator](#jigsaw-css-validator)
     - [W3C HTML Validator](#w3c-html-validator)
     - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
@@ -145,6 +146,16 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 <a id=#testing-and-validation></a>
 
 ## Testing and Validation
+
+<a id=#testing></a>
+
+### Testing
+
+A number of tests have been carried out to ensure that the site works as intended. These tests include:
+* Checking all internal and external links to ensure that they lead the user to the expected page or site.
+* Checking that all images and content display correctly across screen sizes and orientations, without being distorted or obscured.
+* Testing that form validation is in place, and submissionbutton inputs work as expected.
+* Testing filepaths and ensuring CSS selectors target the expected element, class, or ID.
 
 <a id=#jigsaw-css-validator></a>
 
