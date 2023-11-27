@@ -258,6 +258,6 @@ Fonts imported into style.css from [Google Fonts]().
 
 [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair) typeface designed by Claus Eggers Sørensen.
 
-[Assistant]() typeface designed by Ben Nathan & Adobe Systems Inc.
+[Assistant](https://fonts.google.com/specimen/Assistant) typeface designed by Ben Nathan & Adobe Systems Inc.
 
 Code used to create the class "nav-toggle" was adapted from Code Institute's "[Love Running](https://github.com/Code-Institute-Solutions/love-running-v3)" project.
