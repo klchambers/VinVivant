@@ -227,6 +227,7 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 30px;
     text-align: center;
+    padding: 5px 15px;
 }
 
 .blogtitletext h3 {
@@ -275,7 +276,7 @@ footer {
     width: 100vw;
 }
 
-/*Styling title/image caption for blog post */
+/* Styling title/image caption for blog post */
 .blogtitlebox {
     background-color: rgba(71, 108, 70, 0.8);
     color: antiquewhite;
@@ -284,11 +285,12 @@ footer {
     margin: 0 auto;
     position: absolute;
     transform: translateY(-150%);
-    margin: -10% 10%;
+    margin: -5% 10%;
     text-align: center;
+    padding: 5px 5px;
 }
 
-/* KEEP THIS styling blog text content */
+/* styling blog text content */
 .blogtext {
     margin: 25px auto;
     width: 85vw;
@@ -423,6 +425,11 @@ footer {
 #cta p {
     font-family: 'Assistant', Arial, Helvetica, sans-serif;
     font-size: larger;
+}
+
+#cta a:hover {
+    color: rgba(71, 108, 70, 1);
+    text-decoration: underline;
 }
 
 #bloglink {
@@ -711,6 +718,11 @@ footer {
         display: flex;
         flex-direction: column;
         transform: translateY(50px);
+    }
+
+    #cta a:hover {
+        color: antiquewhite;
+        text-decoration: underline;
     }
 
     /* Resizes image to reduce wasted screen space */
