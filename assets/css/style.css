@@ -747,6 +747,11 @@ footer {
 @media screen and (min-width: 1400px) {
 
     /* Makes hero image take up full width of screen on largest screens, with call to action/blog image below */
+
+    main {
+        overflow-x: hidden;
+    }
+    
     .laptopdisplay {
         flex-direction: column;
     }
