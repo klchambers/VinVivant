@@ -127,7 +127,7 @@ VinVivant/blog.html displays blog posts in a column on mobile devices, and rows/
 
 ![Blog section screenshot](/assets/docs/blogscreenshot.png)
 
-The images on this page are clickable links, with take the user to the corresponding page for that blog post.
+The images on this page are clickable links, which take the user to the corresponding page for that blog post.
 
 ![Blog post example screenshot](/assets/docs/blogpostscreenshot.png)
 
