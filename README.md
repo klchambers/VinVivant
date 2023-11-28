@@ -22,7 +22,9 @@
     - [W3C HTML Validator](#w3c-html-validator)
     - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
  - [Development and Deployment](#development-and-deployment)
+    - [Development](#development)
     - [Contributing to VinVivant](#contributing-to-vinvivant)
+    - [Deployment](#deployment)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
@@ -79,7 +81,7 @@ Clicking the VinVivant logo in the top left, from any page, will take the user b
 
 #### Colour
 
-The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a muted green (rgba(71, 108, 70)) is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of many natural winemakers.
+The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a muted green (`rgb(71, 108, 70)`) is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of many natural winemakers.
 
 Background images are overlaid with the same muted green (rgba(71, 108, 70, 0.8), with a colour of 'antique white' to maintain legibility of the text over the image, with the opacity of the text box set to 0.8 to allow the user to see the background image.
 
@@ -217,13 +219,29 @@ VinVivant performed well across the Lighthouse test. The full report summary can
 
 ## Development and Deployment
 
+<a id=#development></a>
+
+### Development
+
+Development was started by cloning Code Institute's project template (available [here](https://github.com/Code-Institute-Org/ci-full-template)), and HTML and CSS was written in VSCode with changes pushed to GitHub.
+
 <a id=#contributing-to-vinvivant></a>
 
 ### Contributing to VinVivant
 
-Development was started by cloning Code Institute's project template (available [here](https://github.com/Code-Institute-Org/ci-full-template)), and HTML and CSS was written in VSCode with changes pushed to GitHub.
-
 To contribute, make a pull request from the [project repository](https://github.com/klchambers/VinVivant). When merged, any changes will automatically be reflected in the live deployment on Github Pages.
+
+<a id=#Deployment></a>
+
+### Deployment
+
+VinVivant has been deployed to GitHub Pages, a cloud-based hosting platform.
+
+In order to deploy a cloned copy of the project to GitHub Pages, follow the steps below:
+1. From the GitHub repository, select '**Settings**'
+2. In the left-hand menu, under the 'Code and automation' section, select '**Pages**'
+3. Ensure *Sources* is set to '**Deploy from a branch**', and that *Branch* is set to '**Main**'
+4. Click **Save**, the repository will now be available at https://*yourGitHubusername*.github.io/*yourprojectname*/ (for example: https://klchambers.github.io/VinVivant/)
 
 <a id=#technologies-used></a>
 
