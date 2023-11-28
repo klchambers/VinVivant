@@ -288,6 +288,7 @@ footer {
     margin: -5% 10%;
     text-align: center;
     padding: 5px 5px;
+    top: 150px;
 }
 
 /* styling blog text content */
@@ -763,9 +764,9 @@ footer {
     }
 
     .blogtitlebox {
-        font-size: 150%;
-        top: 200px;
-        left: 5%;
+        font-size: 200%;
+        top: 300px;
+        margin-left: 10vw;
     }
 
     /* Increases size of call to action box and changes colour to improve contrast against header/footer */
