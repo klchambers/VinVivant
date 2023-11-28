@@ -35,7 +35,7 @@ VinVivant is a blog about natural wine featuring natural wine reviews, with the 
 
 It is primarily targeted at those with an interest in wine and natural winemaking, but the informative nature of the site will make it ideal for those without prior knowledge to learn more, with the potential to add blog posts about different grape varietals, winemaking regions, terminology, and styles.
 
-![VinVivant responsiveness mockup](/assets/docs/ui-responsiveness2.png)
+![VinVivant responsiveness mockup](/assets/docs/ui-responsiveness.png)
 
 <a id=#deployed-site></a>
 
@@ -107,7 +107,7 @@ During the inception of this project, Balsamiq Wireframes was used to create moc
 
 ### Landing Page
 
-![Landing Page responsiveness screenshot](/assets/docs/ui-responsiveness1.png)
+![Landing Page responsiveness screenshot](/assets/docs/landing-page-responsiveness.png)
 
 The landing page features a hero image, with image links below this inviting the user to visit the VinVivant Blog and the Newsletter Sign Up sections of the website.
 
