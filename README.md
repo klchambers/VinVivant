@@ -16,13 +16,13 @@
    - [Contact Us](#contact-us)
    - [Newsletter Sign Up](#newsletter-sign-up)
  - [Testing and Validation](#testing-and-validation)
+    - [Testing Methodology](#testing-methodology)
     - [Testing](#testing)
     - [Jigsaw CSS Validator](#jigsaw-css-validator)
     - [W3C HTML Validator](#w3c-html-validator)
     - [Lighthouse Accessibility & Performance](#lighthouse-accessibility-&-performance)
  - [Development and Deployment](#development-and-deployment)
     - [Contributing to VinVivant](#contributing-to-vinvivant)
-    - [Testing Methodology](#testing-methodology)
  - [Technologies Used](#technologies-used)
  - [Acknowledgements](#acknowledgements)
 
@@ -153,6 +153,21 @@ At present, the submit button takes the user to ./thankyou.html, the data is not
 
 ## Testing and Validation
 
+<a id=#testing-methodology></a>
+
+### Testing Methodology
+
+When testing, the following outcomes should be met:
+* Content displays properly on all device screeen sizes in both portrait and landscape orientation by checking on different devices, or using Responsive Design Mode in your browser's Developer Tools.
+
+* Appropriate breakpoints are set, and creates responsiveness of all pages across device types, by checking media queries in CSS or using the CSS Breakpoints selector in Google Chrome's Developer Tools.
+
+* All internal and external links direct the user to the expected destination, with external links opening in a new tab when clicked.
+
+* HTML returns no errors or warnings when checked through the [W3C HTML Validation Service](https://validator.w3.org/).
+
+* CSS returns no errors or warnings when checked through the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
 <a id=#testing></a>
 
 ### Testing
@@ -209,21 +224,6 @@ VinVivant performed well across the Lighthouse test. The full report summary can
 Development was started by cloning Code Institute's project template (available [here](https://github.com/Code-Institute-Org/ci-full-template)), and HTML and CSS was written in VSCode with changes pushed to GitHub.
 
 To contribute, make a pull request from the [project repository](https://github.com/klchambers/VinVivant). When merged, any changes will automatically be reflected in the live deployment on Github Pages.
-
-<a id=#testing-methodology></a>
-
-### Testing Methodology
-
-When testing, the following outcomes should be met:
-* Content displays properly on all device screeen sizes in both portrait and landscape orientation by checking on different devices, or using Responsive Design Mode in your browser's Developer Tools.
-
-* Appropriate breakpoints are set, and creates responsiveness of all pages across device types, by checking media queries in CSS or using the CSS Breakpoints selector in Google Chrome's Developer Tools.
-
-* All internal and external links direct the user to the expected destination, with external links opening in a new tab when clicked.
-
-* HTML returns no errors or warnings when checked through the [W3C HTML Validation Service](https://validator.w3.org/).
-
-* CSS returns no errors or warnings when checked through the [W3C Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
 <a id=#technologies-used></a>
 
