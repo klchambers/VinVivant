@@ -4,16 +4,17 @@
 
  - [Introduction](#introduction)
  - [Deployed Site](#deployed-site)
+  - [User Experience](#user-experience)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Site Structure](#site-structure)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
  - [VinVivant Features](#vinvivant-features)
    - [Landing Page](#landing-page)
    - [Blog](#blog)
    - [Contact Us](#contact-us)
    - [Newsletter Sign Up](#newsletter-sign-up)
- - [User Experience](#user-experience)
-    - [User Goals](#user-goals)
-    - [User Stories](#user-stories)
-    - [Design](#design)
-    - [Wireframes](#wireframes)
  - [Testing and Validation](#testing-and-validation)
     - [Testing](#testing)
     - [Jigsaw CSS Validator](#jigsaw-css-validator)
@@ -40,6 +41,63 @@ It is primarily targeted at those with an interest in wine and natural winemakin
 
 ## Deployed Site
 VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
+
+<a id=#user-experience>
+
+## User Experience
+
+<a id=#user-goals></a>
+
+### User Goals
+
+* The site should be laid out well and visually appealing
+* The site should be structured in a logical manner, with layout and style remaining consistent throughout pages and elements in places where I expect to find them, making navigation simple and intuitive
+* Content should be of good quality
+
+<a id=#user-stories></a>
+
+### User Stories
+
+* I would like to find high quality content
+* I would like this content to be displayed properly, regardless of the device, software, or assistive technology I use to access it
+* I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
+* I would like the site to be informative and for this information to be easy and enjoyable to access
+
+<a id=#site-structure></a>
+
+### Site Structure
+
+From the homepage (/index.html), the user can visit the following three pages: blog.html, contactus.html, and signup.html.
+
+The navigation bar holds links to the three aforementioned pages, and collapses down into a hamburger icon on smaller screens to optimise the layout with less screen space.
+
+Clicking the VinVivant logo in the top left, from any page, will take the user back to the home page.
+
+<a id=#design></a>
+
+### Design
+
+#### Colour
+
+The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a <span style="background-color:rgba(71, 108, 70)">muted green (rgba(71, 108, 70))</span> is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of many natural winemakers.
+
+Background images are overlaid with the same muted green (rgba(71, 108, 70, 0.8), with a colour of 'antique white' to maintain legibility of the text over the image, with the opacity of the text box set to 0.8 to allow the user to see the background image.
+
+#### Typography
+
+[Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
+
+For headings, ['Playfair Display'](https://fonts.google.com/specimen/Playfair+Display?query=playfair) was selected. This neutral serif font is readable, particularly in higher font weights, across all screen sizes and the serif features of it evoke a trustworthy and reputable feeling to the user.
+
+In body text, the sans-serif typeface ['Assistant'](https://fonts.google.com/specimen/Assistant?query=assistant) was used for legibility and adaptability across different font weights and screen sizes.
+
+### Wireframes
+
+During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
+
+#### [index.html mobile mockup](/assets/docs/wireframe1.png)
+#### [index.html tablet mockup](/assets/docs/wireframe4.png)
+#### [index.html browser mockup](/assets/docs/wireframe5.png)
 
 <a id=#vinvivant-features></a>
 
@@ -90,61 +148,6 @@ On the sign up page is a form for the user to fill out their details and set pre
 At present, the submit button takes the user to ./thankyou.html, the data is not submitted anywhere yet but this can be implemented in future.
 
 ![Screencap of Newsletter Signup](/assets/docs/signupformcomplete-screenshot.png)
-
-<a id=#user-experience>
-
-## User Experience
-
-<a id=#usergoals></a>
-
-### User Goals
-
-* The site should be laid out well and visually appealing
-* The site should be structured in a logical manner, with layout and style remaining consistent throughout pages and elements in places where I expect to find them, making navigation simple and intuitive
-* Content should be of good quality
-
-<a id=#userstories></a>
-
-### User Stories
-
-* I would like to find high quality content
-* I would like this content to be displayed properly, regardless of the device, software, or assistive technology I use to access it
-* I would like to be able to use the site, links, and form elements easily with everything working as I exxpect when I click or interact with it
-* I would like the site to be informative and for this information to be easy and enjoyable to access
-
-### Site Structure
-
-From the homepage (/index.html), the user can visit the following three pages: blog.html, contactus.html, and signup.html.
-
-The navigation bar holds links to the three aforementioned pages, and collapses down into a hamburger icon on smaller screens to optimise the layout with less screen space.
-
-Clicking the VinVivant logo in the top left, from any page, will take the user back to the home page.
-
-<a id=#design></a>
-
-### Design
-
-#### Colour
-
-The user interface of VinVivant is primarily white and black for legibility and simplicity. In the footer and accents, a <span style="background-color:rgba(71, 108, 70)">muted green (rgba(71, 108, 70))</span> is used. This colour and shade were chosen as green... "provokes feelings of wealth and tradition (particularly darker hues), while on the other it’s strongly associated with environmentalism and nature.", according to [this](https://www.toptal.com/designers/ux/color-in-ux) article by [toptal.com](https://www.toptal.com) about the role of colours in UX design. The intention of this was to draw connotations and parallels between the pages with the environmental focus and ancient traditions of many natural winemakers.
-
-Background images are overlaid with the same muted green (rgba(71, 108, 70, 0.8), with a colour of 'antique white' to maintain legibility of the text over the image, with the opacity of the text box set to 0.8 to allow the user to see the background image.
-
-#### Typography
-
-[Google Fonts](https://fonts.google.com/) was used to import custom fonts into the CSS.
-
-For headings, ['Playfair Display'](https://fonts.google.com/specimen/Playfair+Display?query=playfair) was selected. This neutral serif font is readable, particularly in higher font weights, across all screen sizes and the serif features of it evoke a trustworthy and reputable feeling to the user.
-
-In body text, the sans-serif typeface ['Assistant'](https://fonts.google.com/specimen/Assistant?query=assistant) was used for legibility and adaptability across different font weights and screen sizes.
-
-### Wireframes
-
-During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
-
-#### [index.html mobile mockup](/assets/docs/wireframe1.png)
-#### [index.html tablet mockup](/assets/docs/wireframe4.png)
-#### [index.html browser mockup](/assets/docs/wireframe5.png)
 
 <a id=#testing-and-validation></a>
 
