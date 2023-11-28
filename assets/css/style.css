@@ -504,6 +504,8 @@ footer {
     .blogtext {
         margin: 40px;
         font-size: 110%;
+        height: 75vh;
+        overflow-y: scroll;
     }
 
 
