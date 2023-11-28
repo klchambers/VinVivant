@@ -34,7 +34,7 @@ VinVivant is a blog about natural wine featuring natural wine reviews, with the 
 
 It is primarily targeted at those with an interest in wine and natural winemaking, but the informative nature of the site will make it ideal for those without prior knowledge to learn more, with the potential to add blog posts about different grape varietals, winemaking regions, terminology, and styles.
 
-![VinVivant responsiveness mockup](/assets/READMEcontent/ui-responsiveness2.png)
+![VinVivant responsiveness mockup](/assets/docs/ui-responsiveness2.png)
 
 <a id=#deployed-site></a>
 
@@ -49,15 +49,15 @@ VinVivant can be accessed [here](https://klchambers.github.io/VinVivant/).
 
 ### Landing Page
 
-![Landing Page responsiveness screenshot](/assets/READMEcontent/ui-responsiveness1.png)
+![Landing Page responsiveness screenshot](/assets/docs/ui-responsiveness1.png)
 
 The landing page features a hero image, with image links below this inviting the user to visit the VinVivant Blog and the Newsletter Sign Up sections of the website.
 
-![Landing Page Screenshot](/assets/READMEcontent/landingpage.png)
+![Landing Page Screenshot](/assets/docs/landingpage.png)
 
 Content is partially hidden from the user, to indicate that there is more information below the hero image, and to invite them to scroll down further.
 
-![Bottom of Landing Page Screenshot](/assets/READMEcontent/landingpagebottom.png)
+![Bottom of Landing Page Screenshot](/assets/docs/landingpagebottom.png)
 
 <a id=#blog></a>
 
@@ -65,17 +65,17 @@ Content is partially hidden from the user, to indicate that there is more inform
 
 VinVivant/blog.html displays blog posts in a column on mobile devices, and rows/columns increasing as the screen size gets larger.
 
-![Blog section screenshot](/assets/READMEcontent/blogscreenshot.png)
+![Blog section screenshot](/assets/docs/blogscreenshot.png)
 
 HTML image elements are clickable links, with take the user to the corresponding page for that blog post.
 
-![Blog post example screenshot](/assets/READMEcontent/blogpostscreenshot.png)
+![Blog post example screenshot](/assets/docs/blogpostscreenshot.png)
 
 <a id=#contact-us></a>
 
 ### Contact Us
 
-![Screen cap of contactus.html](/assets/READMEcontent/contact-form-screencap.png)
+![Screen cap of contactus.html](/assets/docs/contact-form-screencap.png)
 
 From the Contact Us page, the user can fill out a contact form, which requires every field to be filled before it can be submitted. Data is validated, and the user is prompted to check that the form has been filled correctly if needed. The form action is linked to the Code Institute's Formdump link to verify when data is correctly submitted.
 
@@ -85,11 +85,11 @@ From the Contact Us page, the user can fill out a contact form, which requires e
 
 On the sign up page is a form for the user to fill out their details and set preferences regarding their newsletter subscription. Text fields are required and the user is prompted to check the data they have entered if it does not meet the requirements.
 
-![Newsletter Sign Up page screenshot](/assets/READMEcontent/signup-screeencap.png)
+![Newsletter Sign Up page screenshot](/assets/docs/signup-screeencap.png)
 
 At present, the submit button takes the user to ./thankyou.html, the data is not submitted anywhere yet but this can be implemented in future.
 
-![Screencap of Newsletter Signup](/assets/READMEcontent/signupformcomplete-screenshot.png)
+![Screencap of Newsletter Signup](/assets/docs/signupformcomplete-screenshot.png)
 
 <a id=#user-experience>
 
@@ -142,9 +142,9 @@ In body text, the sans-serif typeface ['Assistant'](https://fonts.google.com/spe
 
 During the inception of this project, Balsamiq Wireframes was used to create mockups of the responsiveness I wanted to create across device types.
 
-#### [index.html mobile mockup](/assets/READMEcontent/wireframe1.png)
-#### [index.html tablet mockup](/assets/READMEcontent/wireframe4.png)
-#### [index.html browser mockup](/assets/READMEcontent/wireframe5.png)
+#### [index.html mobile mockup](/assets/docs/wireframe1.png)
+#### [index.html tablet mockup](/assets/docs/wireframe4.png)
+#### [index.html browser mockup](/assets/docs/wireframe5.png)
 
 <a id=#testing-and-validation></a>
 
@@ -191,9 +191,9 @@ All page URLs were entered into the W3C HTML Validator and returned no errors or
 
 ### Lighthouse Accessibility & Performance
 
-![Lighthouse Report Summary](/assets/READMEcontent/lighthouse-report.png)
+![Lighthouse Report Summary](/assets/docs/lighthouse-report.png)
 
-VinVivant performed well across the Lighthouse test. The full report summary can be viewed [here](/assets/READMEcontent/lighthouse-report.pdf).
+VinVivant performed well across the Lighthouse test. The full report summary can be viewed [here](/assets/docs/lighthouse-report.pdf).
 
 <a id=#development-and-deployment></a>
 
