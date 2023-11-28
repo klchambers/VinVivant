@@ -237,7 +237,7 @@ To contribute, make a pull request from the [project repository](https://github.
 
 VinVivant has been deployed to GitHub Pages, a cloud-based hosting platform.
 
-In order to deploy a cloned copy of the project to GitHub Pages, follow the steps below:
+In order to deploy a cloned copy or fork of the project to GitHub Pages, follow the steps below:
 1. From the GitHub repository, select '**Settings**'
 2. In the left-hand menu, under the 'Code and automation' section, select '**Pages**'
 3. Ensure *Sources* is set to '**Deploy from a branch**', and that *Branch* is set to '**Main**'
